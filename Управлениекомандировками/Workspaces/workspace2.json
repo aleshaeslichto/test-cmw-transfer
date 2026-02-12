@@ -1,0 +1,79 @@
+{
+  "$type": "Comindware.Platform.Contracts.RoleWorkspaceConfigurationModel, Comindware.Platform.Contracts",
+  "Description": "",
+  "GlobalAlias": {
+    "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+    "Alias": "workspace2",
+    "Solution": "Управлениекомандировками",
+    "Type": "RoleWorkspace"
+  },
+  "Name": "Новый раздел навигации (Бухгалтер)",
+  "NavigationItems": {
+    "$type": "Comindware.Platform.Contracts.NavigationItemModel[], Comindware.Platform.Contracts",
+    "$values": [
+      {
+        "$type": "Comindware.Platform.Contracts.NavigationItemModel, Comindware.Platform.Contracts",
+        "ChildrenItems": {
+          "$type": "Comindware.Platform.Contracts.NavigationItemModel[], Comindware.Platform.Contracts",
+          "$values": [
+            {
+              "$type": "Comindware.Platform.Contracts.NavigationItemModel, Comindware.Platform.Contracts",
+              "Container": "",
+              "Description": "",
+              "IconClass": "file-image",
+              "ItemType": "SimplePage",
+              "Name": "Страница бухгалтера",
+              "Priority": 1,
+              "Severity": "None",
+              "Target": "Page_2eaee192-57e6-4613-9a0e-6b9e5ec721f1",
+              "TargetSolution": "Управлениекомандировками"
+            }
+          ]
+        },
+        "Container": "",
+        "Description": "",
+        "IconClass": "desktop",
+        "ItemType": "DesktopPage",
+        "Name": "Рабочий стол",
+        "Priority": 3,
+        "Severity": "None",
+        "Target": ""
+      },
+      {
+        "$type": "Comindware.Platform.Contracts.NavigationItemModel, Comindware.Platform.Contracts",
+        "Container": "Командировки",
+        "Description": "",
+        "IconClass": "list-alt",
+        "ItemType": "RecordTemplateList",
+        "Name": "Все командировки",
+        "Priority": 2,
+        "Severity": "None",
+        "Target": "defaultList",
+        "TargetSolution": "Управлениекомандировками"
+      },
+      {
+        "$type": "Comindware.Platform.Contracts.NavigationItemModel, Comindware.Platform.Contracts",
+        "Container": "Отчёты",
+        "Description": "",
+        "IconClass": "list-alt",
+        "ItemType": "RecordTemplateList",
+        "Name": "Отчёты",
+        "Priority": 1,
+        "Severity": "None",
+        "Target": "defaultList",
+        "TargetSolution": "Управлениекомандировками"
+      }
+    ]
+  },
+  "Roles": {
+    "$type": "Comindware.Platform.Contracts.GlobalAlias[], Comindware.Platform.Contracts",
+    "$values": [
+      {
+        "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+        "Alias": "Бухгалтер",
+        "Solution": "Управлениекомандировками",
+        "Type": "RoleConfiguration"
+      }
+    ]
+  }
+}

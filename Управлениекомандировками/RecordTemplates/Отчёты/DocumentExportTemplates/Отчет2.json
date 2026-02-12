@@ -1,0 +1,24 @@
+{
+  "$type": "Comindware.Platform.Contracts.DocumentExportTemplateModel, Comindware.Platform.Contracts",
+  "ExportAsPdf": false,
+  "ExportSourceTemplate": {
+    "$type": "Comindware.Platform.Contracts.ExportSourceTemplateFromDocument, Comindware.Platform.Contracts",
+    "FileName": "Export3_1.xlsx",
+    "FileType": "Excel",
+    "Type": "Document"
+  },
+  "ExportTemplateType": "RecordTemplate",
+  "GlobalAlias": {
+    "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+    "Alias": "Отчет2",
+    "Owner": "Отчёты",
+    "Solution": "Управлениекомандировками",
+    "Type": "ExportTemplate"
+  },
+  "Name": "Отчет 2",
+  "OutputFileNameTemplate": {
+    "$type": "Comindware.Platform.Contracts.OutputFileNameTemplateFromValue, Comindware.Platform.Contracts",
+    "Type": "Value",
+    "Value": "\"2Supa_test\""
+  }
+}

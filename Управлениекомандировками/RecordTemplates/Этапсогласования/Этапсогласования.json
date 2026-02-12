@@ -1,0 +1,24 @@
+{
+  "$type": "Comindware.Platform.Contracts.TemplateInfoModel, Comindware.Platform.Contracts",
+  "ConversationDisplayConfig": {
+    "$type": "Comindware.Platform.Contracts.ObjectConversationDisplayConfigModel, Comindware.Platform.Contracts",
+    "DisableSidePanelConversations": false,
+    "DisableWidgetConversations": false,
+    "HideArchivedMessages": false,
+    "ProhibitedReferenceTypes": {
+      "$type": "System.Collections.Generic.List`1[[Comindware.Platform.Contracts.ConversationReferenceTypes, Comindware.Platform.Contracts]], mscorlib",
+      "$values": []
+    }
+  },
+  "GlobalAlias": {
+    "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+    "Alias": "Этапсогласования",
+    "Solution": "Управлениекомандировками",
+    "Type": "RecordTemplate"
+  },
+  "IsDisabled": false,
+  "IsReferenceData": false,
+  "IsTransferable": false,
+  "Name": "Справочник_Этап согласования",
+  "Type": "Record"
+}

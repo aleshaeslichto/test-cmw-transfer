@@ -1,0 +1,48 @@
+{
+  "$type": "Comindware.Platform.Contracts.IntermediateEventActivityModel, Comindware.Platform.Contracts",
+  "BehaviourState": "Active",
+  "GlobalAlias": {
+    "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+    "Alias": "activity_74b6b669c16e4900ba250a0751346b9c",
+    "Owner": "Отправкавкомандировку",
+    "Solution": "",
+    "Type": "ClientActivity"
+  },
+  "IsInterrupting": false,
+  "IsTitleSet": false,
+  "Kind": "CatchingMessage",
+  "MessageDefinition": {
+    "$type": "Comindware.Platform.Contracts.MessageEventDefinitionModel, Comindware.Platform.Contracts",
+    "IsThrowing": false,
+    "MessageName": "Сигнал_остановки",
+    "MessageType": {
+      "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+      "Alias": "activity_77af4d08c98c424dab587f1a7a5a1f0a7369",
+      "Solution": "",
+      "Type": "MessageTemplate"
+    },
+    "ReturnMapping": {
+      "$type": "Comindware.Platform.Contracts.MakeObjectRuleModel, Comindware.Platform.Contracts",
+      "Type": "MakeObject"
+    }
+  },
+  "Owner": {
+    "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+    "Alias": "activity_58b70bf0b49b4363a12bdf0c45b5468c",
+    "Owner": "Отправкавкомандировку",
+    "Solution": "",
+    "Type": "ClientActivity"
+  },
+  "Position": {
+    "$type": "Comindware.Platform.Contracts.VectorModel, Comindware.Platform.Contracts",
+    "X": 425.0,
+    "Y": 205.0
+  },
+  "Size": {
+    "$type": "Comindware.Platform.Contracts.DimensionsModel, Comindware.Platform.Contracts",
+    "Height": 50.0,
+    "Width": 50.0
+  },
+  "SystemName": "activity_74b6b669c16e4900ba250a0751346b9c",
+  "Type": "IntermediateEvent"
+}

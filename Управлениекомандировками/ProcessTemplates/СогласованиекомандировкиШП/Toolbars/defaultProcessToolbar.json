@@ -1,0 +1,88 @@
+{
+  "$type": "Comindware.Platform.Contracts.ToolbarModel, Comindware.Platform.Contracts",
+  "Container": {
+    "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+    "Alias": "СогласованиекомандировкиШП",
+    "Solution": "Управлениекомандировками",
+    "Type": "ProcessTemplate"
+  },
+  "GlobalAlias": {
+    "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+    "Alias": "defaultProcessToolbar",
+    "Owner": "СогласованиекомандировкиШП",
+    "Solution": "Управлениекомандировками",
+    "Type": "Toolbar"
+  },
+  "IsDefaultForForms": false,
+  "IsDefaultForLists": false,
+  "IsDefaultForModelDesigner": false,
+  "IsDefaultForProcess": true,
+  "IsDefaultForProcessDesigner": false,
+  "IsDefaultForTaskLists": false,
+  "Items": {
+    "$type": "System.Collections.Generic.List`1[[Comindware.Platform.Contracts.ToolbarItemModel, Comindware.Platform.Contracts]], mscorlib",
+    "$values": [
+      {
+        "$type": "Comindware.Platform.Contracts.ToolbarItemModel, Comindware.Platform.Contracts",
+        "Action": {
+          "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+          "Alias": "cancelProcess",
+          "Owner": "СогласованиекомандировкиШП",
+          "Solution": "Управлениекомандировками",
+          "Type": "UserCommand"
+        },
+        "IconType": "Undefined",
+        "Name": "Остановить процесс",
+        "Order": 0,
+        "Severity": "None",
+        "Type": "Action"
+      },
+      {
+        "$type": "Comindware.Platform.Contracts.ToolbarItemModel, Comindware.Platform.Contracts",
+        "Action": {
+          "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+          "Alias": "archiveProcess",
+          "Owner": "СогласованиекомандировкиШП",
+          "Solution": "Управлениекомандировками",
+          "Type": "UserCommand"
+        },
+        "IconType": "Undefined",
+        "Name": "Архивировать",
+        "Order": 1,
+        "Severity": "None",
+        "Type": "Action"
+      },
+      {
+        "$type": "Comindware.Platform.Contracts.ToolbarItemModel, Comindware.Platform.Contracts",
+        "Action": {
+          "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+          "Alias": "createToken",
+          "Owner": "СогласованиекомандировкиШП",
+          "Solution": "Управлениекомандировками",
+          "Type": "UserCommand"
+        },
+        "IconType": "Undefined",
+        "Name": "Создать токен",
+        "Order": 2,
+        "Severity": "None",
+        "Type": "Action"
+      },
+      {
+        "$type": "Comindware.Platform.Contracts.ToolbarItemModel, Comindware.Platform.Contracts",
+        "Action": {
+          "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+          "Alias": "migrate",
+          "Owner": "СогласованиекомандировкиШП",
+          "Solution": "Управлениекомандировками",
+          "Type": "UserCommand"
+        },
+        "IconType": "Undefined",
+        "Name": "Мигрировать",
+        "Order": 3,
+        "Severity": "None",
+        "Type": "Action"
+      }
+    ]
+  },
+  "Name": "Область кнопок для экземпляра процесса"
+}

@@ -1,0 +1,60 @@
+{
+  "$type": "Comindware.Platform.Contracts.ToolbarModel, Comindware.Platform.Contracts",
+  "Container": {
+    "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+    "Alias": "Отчёты",
+    "Solution": "Управлениекомандировками",
+    "Type": "RecordTemplate"
+  },
+  "GlobalAlias": {
+    "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+    "Alias": "toolbar8b1c243af52347b0889e49d83ba4e559",
+    "Owner": "Отчёты",
+    "Solution": "Управлениекомандировками",
+    "Type": "Toolbar"
+  },
+  "IsDefaultForForms": false,
+  "IsDefaultForLists": false,
+  "IsDefaultForModelDesigner": false,
+  "IsDefaultForProcess": false,
+  "IsDefaultForProcessDesigner": false,
+  "IsDefaultForTaskLists": false,
+  "Items": {
+    "$type": "System.Collections.Generic.List`1[[Comindware.Platform.Contracts.ToolbarItemModel, Comindware.Platform.Contracts]], mscorlib",
+    "$values": [
+      {
+        "$type": "Comindware.Platform.Contracts.ToolbarItemModel, Comindware.Platform.Contracts",
+        "Action": {
+          "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+          "Alias": "Отчет2",
+          "Owner": "Отчёты",
+          "Solution": "Управлениекомандировками",
+          "Type": "UserCommand"
+        },
+        "IconClass": "circle-b",
+        "IconType": "Undefined",
+        "Name": "Отчет 2 (рабочая)",
+        "Order": 0,
+        "Severity": "Critical",
+        "Type": "Action"
+      },
+      {
+        "$type": "Comindware.Platform.Contracts.ToolbarItemModel, Comindware.Platform.Contracts",
+        "Action": {
+          "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+          "Alias": "Скачатьотчет",
+          "Owner": "Отчёты",
+          "Solution": "Управлениекомандировками",
+          "Type": "UserCommand"
+        },
+        "IconClass": "circle-a",
+        "IconType": "Undefined",
+        "Name": "Скачать отчет (не рабочая :( )",
+        "Order": 1,
+        "Severity": "Normal",
+        "Type": "Action"
+      }
+    ]
+  },
+  "Name": "Область кнопок для «undefined»"
+}

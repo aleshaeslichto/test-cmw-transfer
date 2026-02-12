@@ -1,0 +1,575 @@
+{
+  "$type": "Comindware.Platform.Contracts.RoleConfigurationModel, Comindware.Platform.Contracts",
+  "Description": "Сотрудник - пользователь системы, инициирующий командировку и формирующий отчет по ее результатам.",
+  "GlobalAlias": {
+    "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+    "Alias": "Сотрудник",
+    "Solution": "Управлениекомандировками",
+    "Type": "RoleConfiguration"
+  },
+  "IsActive": true,
+  "Members": {
+    "$type": "System.Collections.Generic.List`1[[Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts]], mscorlib",
+    "$values": [
+      {
+        "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+        "Alias": "Обычные сотрудники",
+        "Solution": "",
+        "Type": "Group"
+      },
+      {
+        "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+        "Alias": "employee",
+        "Solution": "",
+        "Type": "Account"
+      },
+      {
+        "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+        "Alias": "max",
+        "Solution": "",
+        "Type": "Account"
+      }
+    ]
+  },
+  "Name": "Сотрудник",
+  "RootResource": {
+    "$type": "Comindware.Platform.Contracts.ResourcePrivilegeDescriptorModel, Comindware.Platform.Contracts",
+    "AvailablePrivileges": "Read, Create, Update, Delete, FullAccess",
+    "Children": {
+      "$type": "System.Collections.Generic.List`1[[Comindware.Platform.Contracts.ResourcePrivilegeDescriptorModel, Comindware.Platform.Contracts]], mscorlib",
+      "$values": [
+        {
+          "$type": "Comindware.Platform.Contracts.ResourcePrivilegeDescriptorModel, Comindware.Platform.Contracts",
+          "AvailablePrivileges": "ContextUserExpression, ContextObjectCondition, Read, Create, Update, Delete, FullAccess",
+          "Children": {
+            "$type": "System.Collections.Generic.List`1[[Comindware.Platform.Contracts.ResourcePrivilegeDescriptorModel, Comindware.Platform.Contracts]], mscorlib",
+            "$values": [
+              {
+                "$type": "Comindware.Platform.Contracts.ResourcePrivilegeDescriptorModel, Comindware.Platform.Contracts",
+                "AvailablePrivileges": "Execute",
+                "Children": {
+                  "$type": "System.Collections.Generic.List`1[[Comindware.Platform.Contracts.ResourcePrivilegeDescriptorModel, Comindware.Platform.Contracts]], mscorlib",
+                  "$values": []
+                },
+                "Name": "Завершить задачу",
+                "Privileges": "Execute",
+                "Role": {
+                  "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+                  "Alias": "Сотрудник",
+                  "Solution": "Управлениекомандировками",
+                  "Type": "RoleConfiguration"
+                },
+                "Target": {
+                  "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+                  "Alias": "completeTask",
+                  "Owner": "Отправкавкомандировку",
+                  "Solution": "Управлениекомандировками",
+                  "Type": "UserCommand"
+                },
+                "TargetType": "Operation"
+              },
+              {
+                "$type": "Comindware.Platform.Contracts.ResourcePrivilegeDescriptorModel, Comindware.Platform.Contracts",
+                "AvailablePrivileges": "Execute",
+                "Children": {
+                  "$type": "System.Collections.Generic.List`1[[Comindware.Platform.Contracts.ResourcePrivilegeDescriptorModel, Comindware.Platform.Contracts]], mscorlib",
+                  "$values": []
+                },
+                "Name": "Создать",
+                "Privileges": "Execute",
+                "Role": {
+                  "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+                  "Alias": "Сотрудник",
+                  "Solution": "Управлениекомандировками",
+                  "Type": "RoleConfiguration"
+                },
+                "Target": {
+                  "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+                  "Alias": "createProcess",
+                  "Owner": "Отправкавкомандировку",
+                  "Solution": "Управлениекомандировками",
+                  "Type": "UserCommand"
+                },
+                "TargetType": "Operation"
+              },
+              {
+                "$type": "Comindware.Platform.Contracts.ResourcePrivilegeDescriptorModel, Comindware.Platform.Contracts",
+                "AvailablePrivileges": "Execute",
+                "Children": {
+                  "$type": "System.Collections.Generic.List`1[[Comindware.Platform.Contracts.ResourcePrivilegeDescriptorModel, Comindware.Platform.Contracts]], mscorlib",
+                  "$values": []
+                },
+                "Name": "Сохранить",
+                "Privileges": "Execute",
+                "Role": {
+                  "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+                  "Alias": "Сотрудник",
+                  "Solution": "Управлениекомандировками",
+                  "Type": "RoleConfiguration"
+                },
+                "Target": {
+                  "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+                  "Alias": "editTask",
+                  "Owner": "Отправкавкомандировку",
+                  "Solution": "Управлениекомандировками",
+                  "Type": "UserCommand"
+                },
+                "TargetType": "Operation"
+              }
+            ]
+          },
+          "Name": "Отправка в командировку",
+          "Privileges": "Create",
+          "Role": {
+            "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+            "Alias": "Сотрудник",
+            "Solution": "Управлениекомандировками",
+            "Type": "RoleConfiguration"
+          },
+          "Target": {
+            "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+            "Alias": "Отправкавкомандировку",
+            "Solution": "Управлениекомандировками",
+            "Type": "ProcessTemplate"
+          },
+          "TargetType": "ProcessTemplate"
+        },
+        {
+          "$type": "Comindware.Platform.Contracts.ResourcePrivilegeDescriptorModel, Comindware.Platform.Contracts",
+          "AvailablePrivileges": "ContextUserExpression, ContextObjectCondition, Read, Create, Update, Delete, FullAccess",
+          "Children": {
+            "$type": "System.Collections.Generic.List`1[[Comindware.Platform.Contracts.ResourcePrivilegeDescriptorModel, Comindware.Platform.Contracts]], mscorlib",
+            "$values": [
+              {
+                "$type": "Comindware.Platform.Contracts.ResourcePrivilegeDescriptorModel, Comindware.Platform.Contracts",
+                "AvailablePrivileges": "Read",
+                "Children": {
+                  "$type": "System.Collections.Generic.List`1[[Comindware.Platform.Contracts.ResourcePrivilegeDescriptorModel, Comindware.Platform.Contracts]], mscorlib",
+                  "$values": []
+                },
+                "Name": "Все записи",
+                "Privileges": "Read",
+                "Role": {
+                  "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+                  "Alias": "Сотрудник",
+                  "Solution": "Управлениекомандировками",
+                  "Type": "RoleConfiguration"
+                },
+                "Target": {
+                  "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+                  "Alias": "defaultList",
+                  "Owner": "Формированиеотчетакомандировки",
+                  "Solution": "Управлениекомандировками",
+                  "Type": "Dataset"
+                },
+                "TargetType": "List"
+              },
+              {
+                "$type": "Comindware.Platform.Contracts.ResourcePrivilegeDescriptorModel, Comindware.Platform.Contracts",
+                "AvailablePrivileges": "Execute",
+                "Children": {
+                  "$type": "System.Collections.Generic.List`1[[Comindware.Platform.Contracts.ResourcePrivilegeDescriptorModel, Comindware.Platform.Contracts]], mscorlib",
+                  "$values": []
+                },
+                "Name": "Завершить задачу",
+                "Privileges": "Execute",
+                "Role": {
+                  "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+                  "Alias": "Сотрудник",
+                  "Solution": "Управлениекомандировками",
+                  "Type": "RoleConfiguration"
+                },
+                "Target": {
+                  "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+                  "Alias": "completeTask",
+                  "Owner": "Формированиеотчетакомандировки",
+                  "Solution": "Управлениекомандировками",
+                  "Type": "UserCommand"
+                },
+                "TargetType": "Operation"
+              },
+              {
+                "$type": "Comindware.Platform.Contracts.ResourcePrivilegeDescriptorModel, Comindware.Platform.Contracts",
+                "AvailablePrivileges": "Execute",
+                "Children": {
+                  "$type": "System.Collections.Generic.List`1[[Comindware.Platform.Contracts.ResourcePrivilegeDescriptorModel, Comindware.Platform.Contracts]], mscorlib",
+                  "$values": []
+                },
+                "Name": "Создать",
+                "Privileges": "Undefined",
+                "Role": {
+                  "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+                  "Alias": "Сотрудник",
+                  "Solution": "Управлениекомандировками",
+                  "Type": "RoleConfiguration"
+                },
+                "Target": {
+                  "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+                  "Alias": "createProcess",
+                  "Owner": "Формированиеотчетакомандировки",
+                  "Solution": "Управлениекомандировками",
+                  "Type": "UserCommand"
+                },
+                "TargetType": "Operation"
+              },
+              {
+                "$type": "Comindware.Platform.Contracts.ResourcePrivilegeDescriptorModel, Comindware.Platform.Contracts",
+                "AvailablePrivileges": "Execute",
+                "Children": {
+                  "$type": "System.Collections.Generic.List`1[[Comindware.Platform.Contracts.ResourcePrivilegeDescriptorModel, Comindware.Platform.Contracts]], mscorlib",
+                  "$values": []
+                },
+                "Name": "Сохранить",
+                "Privileges": "Execute",
+                "Role": {
+                  "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+                  "Alias": "Сотрудник",
+                  "Solution": "Управлениекомандировками",
+                  "Type": "RoleConfiguration"
+                },
+                "Target": {
+                  "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+                  "Alias": "editTask",
+                  "Owner": "Формированиеотчетакомандировки",
+                  "Solution": "Управлениекомандировками",
+                  "Type": "UserCommand"
+                },
+                "TargetType": "Operation"
+              }
+            ]
+          },
+          "Name": "Формирование отчета командировки",
+          "Privileges": "Read, Create, Update",
+          "Role": {
+            "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+            "Alias": "Сотрудник",
+            "Solution": "Управлениекомандировками",
+            "Type": "RoleConfiguration"
+          },
+          "Target": {
+            "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+            "Alias": "Формированиеотчетакомандировки",
+            "Solution": "Управлениекомандировками",
+            "Type": "ProcessTemplate"
+          },
+          "TargetType": "ProcessTemplate"
+        },
+        {
+          "$type": "Comindware.Platform.Contracts.ResourcePrivilegeDescriptorModel, Comindware.Platform.Contracts",
+          "AvailablePrivileges": "ContextUserExpression, ContextObjectCondition, Read, Create, Update, Delete, FullAccess",
+          "Children": {
+            "$type": "System.Collections.Generic.List`1[[Comindware.Platform.Contracts.ResourcePrivilegeDescriptorModel, Comindware.Platform.Contracts]], mscorlib",
+            "$values": [
+              {
+                "$type": "Comindware.Platform.Contracts.ResourcePrivilegeDescriptorModel, Comindware.Platform.Contracts",
+                "AvailablePrivileges": "Read",
+                "Children": {
+                  "$type": "System.Collections.Generic.List`1[[Comindware.Platform.Contracts.ResourcePrivilegeDescriptorModel, Comindware.Platform.Contracts]], mscorlib",
+                  "$values": []
+                },
+                "Name": "Все записи",
+                "Privileges": "Read",
+                "Role": {
+                  "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+                  "Alias": "Сотрудник",
+                  "Solution": "Управлениекомандировками",
+                  "Type": "RoleConfiguration"
+                },
+                "Target": {
+                  "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+                  "Alias": "defaultList",
+                  "Owner": "Командировки",
+                  "Solution": "Управлениекомандировками",
+                  "Type": "Dataset"
+                },
+                "TargetType": "List"
+              },
+              {
+                "$type": "Comindware.Platform.Contracts.ResourcePrivilegeDescriptorModel, Comindware.Platform.Contracts",
+                "AvailablePrivileges": "Read",
+                "Children": {
+                  "$type": "System.Collections.Generic.List`1[[Comindware.Platform.Contracts.ResourcePrivilegeDescriptorModel, Comindware.Platform.Contracts]], mscorlib",
+                  "$values": []
+                },
+                "Name": "Доработка информации по командировке",
+                "Privileges": "Read",
+                "Role": {
+                  "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+                  "Alias": "Сотрудник",
+                  "Solution": "Управлениекомандировками",
+                  "Type": "RoleConfiguration"
+                },
+                "Target": {
+                  "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+                  "Alias": "form103",
+                  "Owner": "Командировки",
+                  "Solution": "Управлениекомандировками",
+                  "Type": "Form"
+                },
+                "TargetType": "Form"
+              },
+              {
+                "$type": "Comindware.Platform.Contracts.ResourcePrivilegeDescriptorModel, Comindware.Platform.Contracts",
+                "AvailablePrivileges": "Read",
+                "Children": {
+                  "$type": "System.Collections.Generic.List`1[[Comindware.Platform.Contracts.ResourcePrivilegeDescriptorModel, Comindware.Platform.Contracts]], mscorlib",
+                  "$values": []
+                },
+                "Name": "Заявка",
+                "Privileges": "Read",
+                "Role": {
+                  "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+                  "Alias": "Сотрудник",
+                  "Solution": "Управлениекомандировками",
+                  "Type": "RoleConfiguration"
+                },
+                "Target": {
+                  "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+                  "Alias": "form498",
+                  "Owner": "Командировки",
+                  "Solution": "Управлениекомандировками",
+                  "Type": "Form"
+                },
+                "TargetType": "Form"
+              },
+              {
+                "$type": "Comindware.Platform.Contracts.ResourcePrivilegeDescriptorModel, Comindware.Platform.Contracts",
+                "AvailablePrivileges": "Execute",
+                "Children": {
+                  "$type": "System.Collections.Generic.List`1[[Comindware.Platform.Contracts.ResourcePrivilegeDescriptorModel, Comindware.Platform.Contracts]], mscorlib",
+                  "$values": []
+                },
+                "Name": "Создать",
+                "Privileges": "Execute",
+                "Role": {
+                  "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+                  "Alias": "Сотрудник",
+                  "Solution": "Управлениекомандировками",
+                  "Type": "RoleConfiguration"
+                },
+                "Target": {
+                  "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+                  "Alias": "create",
+                  "Owner": "Командировки",
+                  "Solution": "Управлениекомандировками",
+                  "Type": "UserCommand"
+                },
+                "TargetType": "Operation"
+              },
+              {
+                "$type": "Comindware.Platform.Contracts.ResourcePrivilegeDescriptorModel, Comindware.Platform.Contracts",
+                "AvailablePrivileges": "Execute",
+                "Children": {
+                  "$type": "System.Collections.Generic.List`1[[Comindware.Platform.Contracts.ResourcePrivilegeDescriptorModel, Comindware.Platform.Contracts]], mscorlib",
+                  "$values": []
+                },
+                "Name": "Сохранить",
+                "Privileges": "Execute",
+                "Role": {
+                  "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+                  "Alias": "Сотрудник",
+                  "Solution": "Управлениекомандировками",
+                  "Type": "RoleConfiguration"
+                },
+                "Target": {
+                  "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+                  "Alias": "edit",
+                  "Owner": "Командировки",
+                  "Solution": "Управлениекомандировками",
+                  "Type": "UserCommand"
+                },
+                "TargetType": "Operation"
+              }
+            ]
+          },
+          "Expression": "from a in db->Командировки where EQUALS(a->Сотрудник, USER()) select a->id",
+          "Name": "Командировки",
+          "Privileges": "Read, Create, Update, Delete",
+          "Role": {
+            "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+            "Alias": "Сотрудник",
+            "Solution": "Управлениекомандировками",
+            "Type": "RoleConfiguration"
+          },
+          "Target": {
+            "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+            "Alias": "Командировки",
+            "Solution": "Управлениекомандировками",
+            "Type": "RecordTemplate"
+          },
+          "TargetType": "RecordTemplate"
+        },
+        {
+          "$type": "Comindware.Platform.Contracts.ResourcePrivilegeDescriptorModel, Comindware.Platform.Contracts",
+          "AvailablePrivileges": "ContextUserExpression, ContextObjectCondition, Read, Create, Update, Delete, FullAccess",
+          "Children": {
+            "$type": "System.Collections.Generic.List`1[[Comindware.Platform.Contracts.ResourcePrivilegeDescriptorModel, Comindware.Platform.Contracts]], mscorlib",
+            "$values": [
+              {
+                "$type": "Comindware.Platform.Contracts.ResourcePrivilegeDescriptorModel, Comindware.Platform.Contracts",
+                "AvailablePrivileges": "Execute",
+                "Children": {
+                  "$type": "System.Collections.Generic.List`1[[Comindware.Platform.Contracts.ResourcePrivilegeDescriptorModel, Comindware.Platform.Contracts]], mscorlib",
+                  "$values": []
+                },
+                "Name": "Квитанции",
+                "Privileges": "Execute",
+                "Role": {
+                  "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+                  "Alias": "Сотрудник",
+                  "Solution": "Управлениекомандировками",
+                  "Type": "RoleConfiguration"
+                },
+                "Target": {
+                  "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+                  "Alias": "Квитанции",
+                  "Owner": "Отчёты",
+                  "Solution": "Управлениекомандировками",
+                  "Type": "Attribute"
+                },
+                "TargetType": "Document"
+              },
+              {
+                "$type": "Comindware.Platform.Contracts.ResourcePrivilegeDescriptorModel, Comindware.Platform.Contracts",
+                "AvailablePrivileges": "Read",
+                "Children": {
+                  "$type": "System.Collections.Generic.List`1[[Comindware.Platform.Contracts.ResourcePrivilegeDescriptorModel, Comindware.Platform.Contracts]], mscorlib",
+                  "$values": []
+                },
+                "Name": "Все записи",
+                "Privileges": "Read",
+                "Role": {
+                  "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+                  "Alias": "Сотрудник",
+                  "Solution": "Управлениекомандировками",
+                  "Type": "RoleConfiguration"
+                },
+                "Target": {
+                  "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+                  "Alias": "defaultList",
+                  "Owner": "Отчёты",
+                  "Solution": "Управлениекомандировками",
+                  "Type": "Dataset"
+                },
+                "TargetType": "List"
+              },
+              {
+                "$type": "Comindware.Platform.Contracts.ResourcePrivilegeDescriptorModel, Comindware.Platform.Contracts",
+                "AvailablePrivileges": "Read",
+                "Children": {
+                  "$type": "System.Collections.Generic.List`1[[Comindware.Platform.Contracts.ResourcePrivilegeDescriptorModel, Comindware.Platform.Contracts]], mscorlib",
+                  "$values": []
+                },
+                "Name": "Заполнить  отчет",
+                "Privileges": "Read",
+                "Role": {
+                  "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+                  "Alias": "Сотрудник",
+                  "Solution": "Управлениекомандировками",
+                  "Type": "RoleConfiguration"
+                },
+                "Target": {
+                  "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+                  "Alias": "form844",
+                  "Owner": "Отчёты",
+                  "Solution": "Управлениекомандировками",
+                  "Type": "Form"
+                },
+                "TargetType": "Form"
+              },
+              {
+                "$type": "Comindware.Platform.Contracts.ResourcePrivilegeDescriptorModel, Comindware.Platform.Contracts",
+                "AvailablePrivileges": "Execute",
+                "Children": {
+                  "$type": "System.Collections.Generic.List`1[[Comindware.Platform.Contracts.ResourcePrivilegeDescriptorModel, Comindware.Platform.Contracts]], mscorlib",
+                  "$values": []
+                },
+                "Name": "Создать",
+                "Privileges": "Execute",
+                "Role": {
+                  "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+                  "Alias": "Сотрудник",
+                  "Solution": "Управлениекомандировками",
+                  "Type": "RoleConfiguration"
+                },
+                "Target": {
+                  "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+                  "Alias": "create",
+                  "Owner": "Отчёты",
+                  "Solution": "Управлениекомандировками",
+                  "Type": "UserCommand"
+                },
+                "TargetType": "Operation"
+              },
+              {
+                "$type": "Comindware.Platform.Contracts.ResourcePrivilegeDescriptorModel, Comindware.Platform.Contracts",
+                "AvailablePrivileges": "Execute",
+                "Children": {
+                  "$type": "System.Collections.Generic.List`1[[Comindware.Platform.Contracts.ResourcePrivilegeDescriptorModel, Comindware.Platform.Contracts]], mscorlib",
+                  "$values": []
+                },
+                "Name": "Сохранить",
+                "Privileges": "Execute",
+                "Role": {
+                  "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+                  "Alias": "Сотрудник",
+                  "Solution": "Управлениекомандировками",
+                  "Type": "RoleConfiguration"
+                },
+                "Target": {
+                  "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+                  "Alias": "edit",
+                  "Owner": "Отчёты",
+                  "Solution": "Управлениекомандировками",
+                  "Type": "UserCommand"
+                },
+                "TargetType": "Operation"
+              }
+            ]
+          },
+          "Expression": "from a in db->Отчёты where EQUALS(a->Командировка->Сотрудник, USER()) select a->id",
+          "Name": "Отчёты",
+          "Privileges": "Read, Create, Update",
+          "Role": {
+            "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+            "Alias": "Сотрудник",
+            "Solution": "Управлениекомандировками",
+            "Type": "RoleConfiguration"
+          },
+          "Target": {
+            "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+            "Alias": "Отчёты",
+            "Solution": "Управлениекомандировками",
+            "Type": "RecordTemplate"
+          },
+          "TargetType": "RecordTemplate"
+        }
+      ]
+    },
+    "Name": "Управление командировками",
+    "Privileges": "Undefined",
+    "Role": {
+      "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+      "Alias": "Сотрудник",
+      "Solution": "Управлениекомандировками",
+      "Type": "RoleConfiguration"
+    },
+    "Target": {
+      "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+      "Alias": "Управлениекомандировками",
+      "Solution": "",
+      "Type": "Solution"
+    },
+    "TargetType": "BusinessApp"
+  },
+  "Workspace": {
+    "$type": "Comindware.Platform.Contracts.RoleWorkspaceModel, Comindware.Platform.Contracts",
+    "GlobalAlias": {
+      "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+      "Alias": "workspace0",
+      "Solution": "Управлениекомандировками",
+      "Type": "RoleWorkspace"
+    },
+    "Name": "Новый раздел навигации (Сотрудник)"
+  }
+}

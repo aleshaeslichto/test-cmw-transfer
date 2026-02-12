@@ -1,0 +1,5 @@
+{
+  "$type": "Comindware.Platform.Contracts.TransferMetadata, Comindware.Platform.Contracts",
+  "Alias": "Управлениекомандировками",
+  "Name": "Управление командировками"
+}

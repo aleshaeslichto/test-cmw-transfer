@@ -1,0 +1,140 @@
+{
+  "$type": "Comindware.Platform.Contracts.Models.Triggers.EventTrigger.TriggerModel, Comindware.Platform.Contracts",
+  "ActionsHead": {
+    "$type": "Comindware.Platform.Contracts.Models.Triggers.EventTrigger.OnProcessActivityExit, Comindware.Platform.Contracts",
+    "Description": "Токен вышел из элемента «» <activity_e5d1d5375bf44e73929ef03b5411e846>, процесс «Отправка в командировку» <Отправкавкомандировку>",
+    "GlobalAlias": {
+      "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+      "Alias": "f6683bdb4b73453e92fd3a028dea50ae",
+      "Solution": "",
+      "Type": "TriggerEvent"
+    },
+    "IsAsync": false,
+    "IsCleaningCache": false,
+    "IsSafe": false,
+    "Kind": "OnProcessActivityExit",
+    "Name": "Токен вышел из элемента «»",
+    "NextAction": {
+      "$type": "Comindware.Platform.Contracts.Models.Triggers.EventTrigger.ReferenceObjectChange, Comindware.Platform.Contracts",
+      "GlobalAlias": {
+        "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+        "Alias": "6cda4e95cf1145cc97c142017cf35c67",
+        "Solution": "",
+        "Type": "TriggerAction"
+      },
+      "IsAsync": false,
+      "IsCleaningCache": false,
+      "IsSafe": false,
+      "Kind": "ReferenceObjectChange",
+      "ReferenceExpression": "$$BusinessObject",
+      "Scope": {
+        "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+        "Alias": "Отправкавкомандировку",
+        "Solution": "Управлениекомандировками",
+        "Type": "ProcessTemplate"
+      },
+      "SubAction": {
+        "$type": "Comindware.Platform.Contracts.Models.Triggers.EventTrigger.ReferenceObjectCreate, Comindware.Platform.Contracts",
+        "GlobalAlias": {
+          "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+          "Alias": "d828fadc50c447518f293a96d826545e",
+          "Solution": "",
+          "Type": "TriggerAction"
+        },
+        "IsAsync": false,
+        "IsCleaningCache": false,
+        "IsSafe": false,
+        "Kind": "ReferenceObjectCreate",
+        "Name": "В шаблоне «Отчёты» и добавить ссылку на новую запись в атрибут «Отчёт»",
+        "Property": {
+          "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+          "Alias": "Отчёт",
+          "Owner": "Командировки",
+          "Solution": "Управлениекомандировками",
+          "Type": "Attribute"
+        },
+        "Scope": {
+          "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+          "Alias": "Командировки",
+          "Solution": "Управлениекомандировками",
+          "Type": "RecordTemplate"
+        },
+        "SetValueKind": "Add",
+        "SubAction": {
+          "$type": "Comindware.Platform.Contracts.Models.Triggers.EventTrigger.PropertySetValueAction, Comindware.Platform.Contracts",
+          "GlobalAlias": {
+            "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+            "Alias": "1b791b26542d4ba69ebb306537e0c08b",
+            "Solution": "",
+            "Type": "TriggerAction"
+          },
+          "IsAsync": false,
+          "IsCleaningCache": false,
+          "IsSafe": false,
+          "Kind": "PropertySetValue",
+          "Name": "В записи «Отчёты»",
+          "Scope": {
+            "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+            "Alias": "Отчёты",
+            "Solution": "Управлениекомандировками",
+            "Type": "RecordTemplate"
+          },
+          "SetValueProperties": {
+            "$type": "Comindware.Platform.Contracts.Models.Triggers.EventTrigger.PropertySetValue[], Comindware.Platform.Contracts",
+            "$values": [
+              {
+                "$type": "Comindware.Platform.Contracts.Models.Triggers.EventTrigger.PropertySetValue, Comindware.Platform.Contracts",
+                "PropertyPath": {
+                  "$type": "Comindware.Platform.Contracts.GlobalAlias[], Comindware.Platform.Contracts",
+                  "$values": [
+                    {
+                      "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+                      "Alias": "Комментариипокомандировке",
+                      "Owner": "Отчёты",
+                      "Solution": "Управлениекомандировками",
+                      "Type": "Attribute"
+                    }
+                  ]
+                },
+                "SetValueKind": "Replace",
+                "ValueExpression": "\"МЯФ2\""
+              }
+            ]
+          },
+          "Uid": "1b791b26542d4ba69ebb306537e0c08b"
+        },
+        "TargetContainer": {
+          "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+          "Alias": "Отчёты",
+          "Solution": "Управлениекомандировками",
+          "Type": "RecordTemplate"
+        },
+        "Uid": "d828fadc50c447518f293a96d826545e"
+      },
+      "TargetContainer": {
+        "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+        "Alias": "Командировки",
+        "Solution": "Управлениекомандировками",
+        "Type": "RecordTemplate"
+      },
+      "Uid": "6cda4e95cf1145cc97c142017cf35c67"
+    },
+    "Scope": {
+      "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+      "Alias": "Отправкавкомандировку",
+      "Solution": "Управлениекомандировками",
+      "Type": "ProcessTemplate"
+    },
+    "Uid": "f6683bdb4b73453e92fd3a028dea50ae"
+  },
+  "BehaviourState": "Active",
+  "Description": "Сценарий при выходе токена из элемента «activity_e5d1d5375bf44e73929ef03b5411e846» <activity_e5d1d5375bf44e73929ef03b5411e846>, процесс «Отправка в командировку» <Отправкавкомандировку>",
+  "ExecutionContext": "ByInitiator",
+  "GlobalAlias": {
+    "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+    "Alias": "TokenLeaves_activity_e5d1d5375bf44e73929ef03b5411e846_Отправкавкомандировку_V15_0_b21d55",
+    "Solution": "",
+    "Type": "Trigger"
+  },
+  "Name": "Выход токена из элемента «activity_e5d1d5375bf44e73929ef03b5411e846» процесса «Отправка в командировку»"
+}

@@ -1,0 +1,54 @@
+{
+  "$type": "Comindware.Platform.Contracts.UserCommandConfigurationModel, Comindware.Platform.Contracts",
+  "ConditionRule": "@prefix cmwui: <http://comindware.com/ontology/ui#>.  \n@prefix account: <http://comindware.com/ontology/account#>.  \n@prefix role: <http://comindware.com/ontology/role#>.  \n@prefix cmw: <http://comindware.com/logics#>.  \n{  \n    \"role.2\" cmwui:toQName ?role.  \n    cmw:securityContext cmw:currentUser ?currentUser.  \n    ?role role:isRoleMember ?currentUser.  \n    true -> ?value.  \n}",
+  "ConfirmationModelConfiguration": {
+    "$type": "Comindware.Platform.Contracts.UserCommandConfirmationModel, Comindware.Platform.Contracts",
+    "Template": {
+      "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+      "Alias": "Prervat_komandirovku049c",
+      "Solution": "",
+      "Type": "MessageTemplate"
+    }
+  },
+  "Container": {
+    "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+    "Alias": "Командировки",
+    "Solution": "Управлениекомандировками",
+    "Type": "RecordTemplate"
+  },
+  "Context": "Record",
+  "GlobalAlias": {
+    "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+    "Alias": "Прерватькомандировку",
+    "Owner": "Командировки",
+    "Solution": "Управлениекомандировками",
+    "Type": "UserCommand"
+  },
+  "IsConfirmationActive": false,
+  "IsDisabled": false,
+  "IsPrepare": false,
+  "IsSystem": false,
+  "Kind": "StartProcess",
+  "LockStateChangeType": "Undefined",
+  "LockStateVisibilityType": "Undefined",
+  "Multiplicity": "OneByOne",
+  "Name": "Прервать командировку",
+  "NavigationTarget": "Undefined",
+  "RelatedAction": {
+    "$type": "Comindware.Platform.Contracts.UserCommandRelatedActionModel, Comindware.Platform.Contracts",
+    "ContainerGlobalAlias": {
+      "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+      "Alias": "Командировки",
+      "Solution": "Управлениекомандировками",
+      "Type": "RecordTemplate"
+    },
+    "TemplateGlobalAlias": {
+      "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+      "Alias": "Прерываниекомандировкируководителем",
+      "Solution": "Управлениекомандировками",
+      "Type": "ProcessTemplate"
+    }
+  },
+  "ResultType": "DataChange",
+  "SkipValidation": false
+}

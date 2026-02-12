@@ -1,0 +1,91 @@
+{
+  "$type": "Comindware.Platform.Contracts.RoleWorkspaceConfigurationModel, Comindware.Platform.Contracts",
+  "Description": "",
+  "GlobalAlias": {
+    "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+    "Alias": "workspace0",
+    "Solution": "Управлениекомандировками",
+    "Type": "RoleWorkspace"
+  },
+  "Name": "Новый раздел навигации (Сотрудник)",
+  "NavigationItems": {
+    "$type": "Comindware.Platform.Contracts.NavigationItemModel[], Comindware.Platform.Contracts",
+    "$values": [
+      {
+        "$type": "Comindware.Platform.Contracts.NavigationItemModel, Comindware.Platform.Contracts",
+        "ChildrenItems": {
+          "$type": "Comindware.Platform.Contracts.NavigationItemModel[], Comindware.Platform.Contracts",
+          "$values": [
+            {
+              "$type": "Comindware.Platform.Contracts.NavigationItemModel, Comindware.Platform.Contracts",
+              "Container": "",
+              "Description": "",
+              "IconClass": "file-image",
+              "ItemType": "SimplePage",
+              "Name": "Страница сотрудника",
+              "Priority": 1,
+              "Severity": "None",
+              "Target": "Page_cc0d7674-6fcf-4972-90aa-fa8baad6237d",
+              "TargetSolution": "Управлениекомандировками"
+            }
+          ]
+        },
+        "Container": "",
+        "Description": "",
+        "IconClass": "desktop",
+        "ItemType": "DesktopPage",
+        "Name": "Рабочий стол",
+        "Priority": 4,
+        "Severity": "None",
+        "Target": ""
+      },
+      {
+        "$type": "Comindware.Platform.Contracts.NavigationItemModel, Comindware.Platform.Contracts",
+        "Container": "Отправкавкомандировку",
+        "Description": "",
+        "IconClass": "person-cane",
+        "ItemType": "Action",
+        "Name": "Создать заявку на командировку",
+        "Priority": 3,
+        "Severity": "None",
+        "Target": "createProcess",
+        "TargetSolution": "Управлениекомандировками"
+      },
+      {
+        "$type": "Comindware.Platform.Contracts.NavigationItemModel, Comindware.Platform.Contracts",
+        "Container": "Командировки",
+        "Description": "",
+        "IconClass": "list-alt",
+        "ItemType": "RecordTemplateList",
+        "Name": "Мои командировки",
+        "Priority": 2,
+        "Severity": "None",
+        "Target": "list38",
+        "TargetSolution": "Управлениекомандировками"
+      },
+      {
+        "$type": "Comindware.Platform.Contracts.NavigationItemModel, Comindware.Platform.Contracts",
+        "Container": "Отчёты",
+        "Description": "",
+        "IconClass": "list-alt",
+        "ItemType": "RecordTemplateList",
+        "Name": "Мои отчёты",
+        "Priority": 1,
+        "Severity": "None",
+        "Target": "defaultList",
+        "TargetSolution": "Управлениекомандировками"
+      }
+    ]
+  },
+  "Roles": {
+    "$type": "Comindware.Platform.Contracts.GlobalAlias[], Comindware.Platform.Contracts",
+    "$values": [
+      {
+        "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+        "Alias": "Сотрудник",
+        "Solution": "Управлениекомандировками",
+        "Type": "RoleConfiguration"
+      }
+    ]
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "$type": "Comindware.Platform.Contracts.LaneActivityModel, Comindware.Platform.Contracts",
+  "GlobalAlias": {
+    "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+    "Alias": "activity_6a263ecb4d884b938fce2487b3f397e2",
+    "Owner": "Формированиеотчетакомандировки",
+    "Solution": "",
+    "Type": "ClientActivity"
+  },
+  "Index": 0,
+  "IsTitleSet": false,
+  "Owner": {
+    "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+    "Alias": "pool1",
+    "Owner": "Формированиеотчетакомандировки",
+    "Solution": "",
+    "Type": "ClientActivity"
+  },
+  "Position": {
+    "$type": "Comindware.Platform.Contracts.VectorModel, Comindware.Platform.Contracts",
+    "X": -5.0,
+    "Y": -5.0
+  },
+  "Size": {
+    "$type": "Comindware.Platform.Contracts.DimensionsModel, Comindware.Platform.Contracts",
+    "Height": 400.0,
+    "Width": 760.0
+  },
+  "SystemName": "activity_6a263ecb4d884b938fce2487b3f397e2",
+  "Title": "Сотрудник/Бухгалтер",
+  "Type": "Lane"
+}

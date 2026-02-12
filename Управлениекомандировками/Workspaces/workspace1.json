@@ -1,0 +1,51 @@
+{
+  "$type": "Comindware.Platform.Contracts.RoleWorkspaceConfigurationModel, Comindware.Platform.Contracts",
+  "Description": "",
+  "GlobalAlias": {
+    "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+    "Alias": "workspace1",
+    "Solution": "Управлениекомандировками",
+    "Type": "RoleWorkspace"
+  },
+  "Name": "Финансовый аналитик - раздел навигации ",
+  "NavigationItems": {
+    "$type": "Comindware.Platform.Contracts.NavigationItemModel[], Comindware.Platform.Contracts",
+    "$values": [
+      {
+        "$type": "Comindware.Platform.Contracts.NavigationItemModel, Comindware.Platform.Contracts",
+        "Container": "Командировки",
+        "Description": "",
+        "IconClass": "list-alt",
+        "ItemType": "RecordTemplateList",
+        "Name": "Все командировки",
+        "Priority": 2,
+        "Severity": "None",
+        "Target": "defaultList",
+        "TargetSolution": "Управлениекомандировками"
+      },
+      {
+        "$type": "Comindware.Platform.Contracts.NavigationItemModel, Comindware.Platform.Contracts",
+        "Container": "Отчёты",
+        "Description": "",
+        "IconClass": "list-alt",
+        "ItemType": "RecordTemplateList",
+        "Name": "Отчёты",
+        "Priority": 1,
+        "Severity": "None",
+        "Target": "defaultList",
+        "TargetSolution": "Управлениекомандировками"
+      }
+    ]
+  },
+  "Roles": {
+    "$type": "Comindware.Platform.Contracts.GlobalAlias[], Comindware.Platform.Contracts",
+    "$values": [
+      {
+        "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+        "Alias": "Финансовыйаналитик",
+        "Solution": "Управлениекомандировками",
+        "Type": "RoleConfiguration"
+      }
+    ]
+  }
+}

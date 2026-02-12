@@ -1,0 +1,25 @@
+{
+  "$type": "Comindware.Platform.Contracts.PoolActivityModel, Comindware.Platform.Contracts",
+  "Description": "Пул",
+  "GlobalAlias": {
+    "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+    "Alias": "Прерываниекомандировкируководителем",
+    "Owner": "Прерываниекомандировкируководителем",
+    "Solution": "",
+    "Type": "ClientActivity"
+  },
+  "IsTitleSet": false,
+  "Position": {
+    "$type": "Comindware.Platform.Contracts.VectorModel, Comindware.Platform.Contracts",
+    "X": 60.0,
+    "Y": 10.0
+  },
+  "Size": {
+    "$type": "Comindware.Platform.Contracts.DimensionsModel, Comindware.Platform.Contracts",
+    "Height": 400.0,
+    "Width": 800.0
+  },
+  "SystemName": "Прерываниекомандировкируководителем",
+  "Title": "Прерывание командировки руководителем",
+  "Type": "Pool"
+}

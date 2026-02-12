@@ -1,0 +1,26 @@
+{
+  "$type": "Comindware.Platform.Contracts.AttributeModel, Comindware.Platform.Contracts",
+  "Format": "Attachment",
+  "GlobalAlias": {
+    "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+    "Alias": "Квитанции",
+    "Owner": "Отчёты",
+    "Solution": "Управлениекомандировками",
+    "Type": "Attribute"
+  },
+  "ImageColorType": "Original",
+  "ImagePreserveAspectRatio": false,
+  "IsCalculated": false,
+  "IsDisabled": false,
+  "IsIndexed": false,
+  "IsMandatory": false,
+  "IsMultiValue": false,
+  "IsOwnership": false,
+  "IsReadonly": false,
+  "IsSystem": false,
+  "IsTitle": false,
+  "IsTracked": true,
+  "IsUnique": false,
+  "Name": "Квитанции",
+  "Type": "Document"
+}

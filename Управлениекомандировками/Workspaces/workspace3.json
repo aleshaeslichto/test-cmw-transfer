@@ -1,0 +1,184 @@
+{
+  "$type": "Comindware.Platform.Contracts.RoleWorkspaceConfigurationModel, Comindware.Platform.Contracts",
+  "Description": "",
+  "GlobalAlias": {
+    "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+    "Alias": "workspace3",
+    "Solution": "Управлениекомандировками",
+    "Type": "RoleWorkspace"
+  },
+  "Name": "Руководитель (раздел навигации)",
+  "NavigationItems": {
+    "$type": "Comindware.Platform.Contracts.NavigationItemModel[], Comindware.Platform.Contracts",
+    "$values": [
+      {
+        "$type": "Comindware.Platform.Contracts.NavigationItemModel, Comindware.Platform.Contracts",
+        "ChildrenItems": {
+          "$type": "Comindware.Platform.Contracts.NavigationItemModel[], Comindware.Platform.Contracts",
+          "$values": [
+            {
+              "$type": "Comindware.Platform.Contracts.NavigationItemModel, Comindware.Platform.Contracts",
+              "Container": "Сотрудники",
+              "Description": "",
+              "IconClass": "align-justify",
+              "ItemType": "Action",
+              "Name": "Моя компания",
+              "Priority": 1,
+              "Severity": "None",
+              "Target": "MyCopany",
+              "TargetSolution": "Управлениекомандировками"
+            }
+          ]
+        },
+        "Container": "",
+        "Description": "",
+        "IconClass": "folder",
+        "ItemType": "Group",
+        "Name": "Компания",
+        "Priority": 6,
+        "Severity": "None",
+        "Target": ""
+      },
+      {
+        "$type": "Comindware.Platform.Contracts.NavigationItemModel, Comindware.Platform.Contracts",
+        "ChildrenItems": {
+          "$type": "Comindware.Platform.Contracts.NavigationItemModel[], Comindware.Platform.Contracts",
+          "$values": [
+            {
+              "$type": "Comindware.Platform.Contracts.NavigationItemModel, Comindware.Platform.Contracts",
+              "Container": "Отправкавкомандировку",
+              "Description": "",
+              "IconClass": "accessible-icon",
+              "ItemType": "Action",
+              "Name": "Заявка на командировку",
+              "Priority": 3,
+              "Severity": "None",
+              "Target": "createProcess",
+              "TargetSolution": "Управлениекомандировками"
+            },
+            {
+              "$type": "Comindware.Platform.Contracts.NavigationItemModel, Comindware.Platform.Contracts",
+              "Container": "Командировки",
+              "Description": "",
+              "IconClass": "sensor",
+              "ItemType": "RecordTemplateList",
+              "Name": "Мои командировки",
+              "Priority": 2,
+              "Severity": "None",
+              "Target": "list38",
+              "TargetSolution": "Управлениекомандировками"
+            },
+            {
+              "$type": "Comindware.Platform.Contracts.NavigationItemModel, Comindware.Platform.Contracts",
+              "Container": "Командировки",
+              "Description": "",
+              "IconClass": "braille",
+              "ItemType": "RecordTemplateList",
+              "Name": "Все командировки",
+              "Priority": 1,
+              "Severity": "None",
+              "Target": "defaultList",
+              "TargetSolution": "Управлениекомандировками"
+            }
+          ]
+        },
+        "Container": "",
+        "Description": "",
+        "IconClass": "folder",
+        "ItemType": "Group",
+        "Name": "Подраздел",
+        "Priority": 5,
+        "Severity": "None",
+        "Target": ""
+      },
+      {
+        "$type": "Comindware.Platform.Contracts.NavigationItemModel, Comindware.Platform.Contracts",
+        "Container": "",
+        "Description": "",
+        "ItemType": "Splitter",
+        "Name": "Разделитель",
+        "Priority": 4,
+        "Severity": "None",
+        "Target": ""
+      },
+      {
+        "$type": "Comindware.Platform.Contracts.NavigationItemModel, Comindware.Platform.Contracts",
+        "ChildrenItems": {
+          "$type": "Comindware.Platform.Contracts.NavigationItemModel[], Comindware.Platform.Contracts",
+          "$values": [
+            {
+              "$type": "Comindware.Platform.Contracts.NavigationItemModel, Comindware.Platform.Contracts",
+              "Container": "Отчёты",
+              "Description": "",
+              "IconClass": "fingerprint",
+              "ItemType": "RecordTemplateList",
+              "Name": "Все отчеты",
+              "Priority": 1,
+              "Severity": "None",
+              "Target": "defaultList",
+              "TargetSolution": "Управлениекомандировками"
+            }
+          ]
+        },
+        "Container": "",
+        "Description": "",
+        "IconClass": "folder",
+        "ItemType": "Group",
+        "Name": "Отчеты",
+        "Priority": 3,
+        "Severity": "None",
+        "Target": ""
+      },
+      {
+        "$type": "Comindware.Platform.Contracts.NavigationItemModel, Comindware.Platform.Contracts",
+        "Container": "",
+        "Description": "",
+        "IconClass": "comments",
+        "ItemType": "Conversations",
+        "Name": "Обсуждения",
+        "Priority": 2,
+        "Severity": "None",
+        "Target": ""
+      },
+      {
+        "$type": "Comindware.Platform.Contracts.NavigationItemModel, Comindware.Platform.Contracts",
+        "ChildrenItems": {
+          "$type": "Comindware.Platform.Contracts.NavigationItemModel[], Comindware.Platform.Contracts",
+          "$values": [
+            {
+              "$type": "Comindware.Platform.Contracts.NavigationItemModel, Comindware.Platform.Contracts",
+              "Container": "",
+              "Description": "",
+              "IconClass": "file-image",
+              "ItemType": "SimplePage",
+              "Name": "Новая страница",
+              "Priority": 1,
+              "Severity": "None",
+              "Target": "Page_d81198d0-febe-4404-8d28-93e76bc19c21",
+              "TargetSolution": "Управлениекомандировками"
+            }
+          ]
+        },
+        "Container": "",
+        "Description": "",
+        "IconClass": "desktop",
+        "ItemType": "DesktopPage",
+        "Name": "Рабочий стол",
+        "Priority": 1,
+        "Severity": "None",
+        "Target": ""
+      }
+    ]
+  },
+  "Roles": {
+    "$type": "Comindware.Platform.Contracts.GlobalAlias[], Comindware.Platform.Contracts",
+    "$values": [
+      {
+        "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+        "Alias": "Руководитель",
+        "Solution": "Управлениекомандировками",
+        "Type": "RoleConfiguration"
+      }
+    ]
+  }
+}

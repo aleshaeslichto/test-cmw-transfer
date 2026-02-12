@@ -1,0 +1,11 @@
+{
+  "$type": "Comindware.Platform.Contracts.MessageTypeConfigurationModel, Comindware.Platform.Contracts",
+  "GlobalAlias": {
+    "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+    "Alias": "Razarkhivdbbc",
+    "Solution": "",
+    "Type": "MessageTemplate"
+  },
+  "Kind": "InternalKind",
+  "Name": "Razarkhivdbbc"
+}
