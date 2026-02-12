@@ -1,0 +1,32 @@
+{
+  "$type": "Comindware.Platform.Contracts.GateActivityModel, Comindware.Platform.Contracts",
+  "BehaviourState": "Active",
+  "GlobalAlias": {
+    "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+    "Alias": "activity_c1eb555704024b79bf53b9c5c79c50ce",
+    "Owner": "Отправкавкомандировку",
+    "Solution": "",
+    "Type": "ClientActivity"
+  },
+  "IsTitleSet": false,
+  "Kind": "Exclusive",
+  "Owner": {
+    "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+    "Alias": "activity_58b70bf0b49b4363a12bdf0c45b5468c",
+    "Owner": "Отправкавкомандировку",
+    "Solution": "",
+    "Type": "ClientActivity"
+  },
+  "Position": {
+    "$type": "Comindware.Platform.Contracts.VectorModel, Comindware.Platform.Contracts",
+    "X": 1345.0,
+    "Y": 165.0
+  },
+  "Size": {
+    "$type": "Comindware.Platform.Contracts.DimensionsModel, Comindware.Platform.Contracts",
+    "Height": 40.0,
+    "Width": 40.0
+  },
+  "SystemName": "activity_c1eb555704024b79bf53b9c5c79c50ce",
+  "Type": "Gate"
+}

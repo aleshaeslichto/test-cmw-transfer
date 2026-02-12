@@ -1,0 +1,33 @@
+{
+  "$type": "Comindware.Platform.Contracts.GateActivityModel, Comindware.Platform.Contracts",
+  "BehaviourState": "Active",
+  "GlobalAlias": {
+    "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+    "Alias": "activity_f6ae24019e7849caa1a02ea73e5cac06",
+    "Owner": "СогласованиекомандировкиШП",
+    "Solution": "",
+    "Type": "ClientActivity"
+  },
+  "IsTitleSet": false,
+  "Kind": "Exclusive",
+  "Owner": {
+    "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+    "Alias": "pool1",
+    "Owner": "СогласованиекомандировкиШП",
+    "Solution": "",
+    "Type": "ClientActivity"
+  },
+  "Position": {
+    "$type": "Comindware.Platform.Contracts.VectorModel, Comindware.Platform.Contracts",
+    "X": 885.0,
+    "Y": 170.0
+  },
+  "Size": {
+    "$type": "Comindware.Platform.Contracts.DimensionsModel, Comindware.Platform.Contracts",
+    "Height": 40.0,
+    "Width": 40.0
+  },
+  "SystemName": "activity_f6ae24019e7849caa1a02ea73e5cac06",
+  "Title": "Согласовано?",
+  "Type": "Gate"
+}

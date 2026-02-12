@@ -1,0 +1,93 @@
+{
+  "$type": "Comindware.Platform.Contracts.Desktop.PageModel, Comindware.Platform.Contracts",
+  "GlobalAlias": {
+    "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+    "Alias": "Page_d81198d0-febe-4404-8d28-93e76bc19c21",
+    "Owner": "Page_d81198d0-febe-4404-8d28-93e76bc19c21",
+    "Solution": "",
+    "Type": "SimplePage"
+  },
+  "Name": "Новая страница",
+  "Root": {
+    "$type": "Comindware.Platform.Contracts.Desktop.VerticalLayoutComponentModel, Comindware.Platform.Contracts",
+    "AccessType": "Undefined",
+    "GlobalAlias": {
+      "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+      "Alias": "Component_6b6337cc-f0a1-4cbc-965b-e0182ebfc5a4",
+      "Owner": "Page_d81198d0-febe-4404-8d28-93e76bc19c21",
+      "Solution": "",
+      "Type": "DesktopComponent"
+    },
+    "Order": 1,
+    "Rows": {
+      "$type": "System.Collections.Generic.List`1[[Comindware.Platform.Contracts.Desktop.ComponentModel, Comindware.Platform.Contracts]], mscorlib",
+      "$values": [
+        {
+          "$type": "Comindware.Platform.Contracts.Desktop.GroupPanelComponentModel, Comindware.Platform.Contracts",
+          "AccessType": "Editable",
+          "GlobalAlias": {
+            "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+            "Alias": "Component_6c44702e-5c2a-48e4-951f-c36f4705ff60",
+            "Owner": "Component_6b6337cc-f0a1-4cbc-965b-e0182ebfc5a4",
+            "Solution": "",
+            "Type": "DesktopComponent"
+          },
+          "Name": "111",
+          "Order": 1,
+          "Rows": {
+            "$type": "System.Collections.Generic.List`1[[Comindware.Platform.Contracts.Desktop.ComponentModel, Comindware.Platform.Contracts]], mscorlib",
+            "$values": [
+              {
+                "$type": "Comindware.Platform.Contracts.Desktop.VerticalLayoutComponentModel, Comindware.Platform.Contracts",
+                "AccessType": "Undefined",
+                "GlobalAlias": {
+                  "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+                  "Alias": "Component_de94ee43-49c0-4869-9fbf-58efc98114fc",
+                  "Owner": "Component_6c44702e-5c2a-48e4-951f-c36f4705ff60",
+                  "Solution": "",
+                  "Type": "DesktopComponent"
+                },
+                "Order": 1,
+                "Rows": {
+                  "$type": "System.Collections.Generic.List`1[[Comindware.Platform.Contracts.Desktop.ComponentModel, Comindware.Platform.Contracts]], mscorlib",
+                  "$values": [
+                    {
+                      "$type": "Comindware.Platform.Contracts.Desktop.FieldComponentModel, Comindware.Platform.Contracts",
+                      "AccessType": "Undefined",
+                      "Children": {
+                        "$type": "System.Collections.Generic.List`1[[Comindware.Platform.Contracts.Desktop.ComponentModel, Comindware.Platform.Contracts]], mscorlib",
+                        "$values": []
+                      },
+                      "FieldType": "Chart",
+                      "GlobalAlias": {
+                        "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+                        "Alias": "WidgetConfig_ffc981b5-e79c-4b79-82fc-4e11dd8e851b",
+                        "Owner": "Component_de94ee43-49c0-4869-9fbf-58efc98114fc",
+                        "Solution": "",
+                        "Type": "DesktopComponent"
+                      },
+                      "Name": "Типы командировок в течении года",
+                      "Order": 1,
+                      "Type": "FieldComponent",
+                      "WidgetConfig": {
+                        "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+                        "Alias": "WidgetConfig_ffc981b5-e79c-4b79-82fc-4e11dd8e851b",
+                        "Solution": "",
+                        "Type": "DesktopWidgetConfig"
+                      }
+                    }
+                  ]
+                },
+                "Type": "VerticalLayout",
+                "Width": "100"
+              }
+            ]
+          },
+          "Type": "GroupPanel",
+          "Width": "100"
+        }
+      ]
+    },
+    "Type": "VerticalLayout"
+  }
+}

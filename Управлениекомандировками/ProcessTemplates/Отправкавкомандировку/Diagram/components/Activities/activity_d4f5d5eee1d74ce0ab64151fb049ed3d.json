@@ -1,0 +1,33 @@
+{
+  "$type": "Comindware.Platform.Contracts.GateActivityModel, Comindware.Platform.Contracts",
+  "BehaviourState": "Active",
+  "GlobalAlias": {
+    "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+    "Alias": "activity_d4f5d5eee1d74ce0ab64151fb049ed3d",
+    "Owner": "Отправкавкомандировку",
+    "Solution": "",
+    "Type": "ClientActivity"
+  },
+  "IsTitleSet": false,
+  "Kind": "Exclusive",
+  "Owner": {
+    "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+    "Alias": "activity_6afbbc0d83884a56be99993886f49bdd",
+    "Owner": "Отправкавкомандировку",
+    "Solution": "",
+    "Type": "ClientActivity"
+  },
+  "Position": {
+    "$type": "Comindware.Platform.Contracts.VectorModel, Comindware.Platform.Contracts",
+    "X": 1035.0,
+    "Y": 490.0
+  },
+  "Size": {
+    "$type": "Comindware.Platform.Contracts.DimensionsModel, Comindware.Platform.Contracts",
+    "Height": 40.0,
+    "Width": 40.0
+  },
+  "SystemName": "activity_d4f5d5eee1d74ce0ab64151fb049ed3d",
+  "Title": "Согласован?",
+  "Type": "Gate"
+}

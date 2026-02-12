@@ -1,0 +1,33 @@
+{
+  "$type": "Comindware.Platform.Contracts.EndEventActivityModel, Comindware.Platform.Contracts",
+  "BehaviourState": "Active",
+  "GlobalAlias": {
+    "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+    "Alias": "activity_10288c65fb754319a85d49603665f9d1",
+    "Owner": "Отправкавкомандировку",
+    "Solution": "",
+    "Type": "ClientActivity"
+  },
+  "IsInterrupting": false,
+  "IsTitleSet": false,
+  "Kind": "Terminate",
+  "Owner": {
+    "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+    "Alias": "activity_58b70bf0b49b4363a12bdf0c45b5468c",
+    "Owner": "Отправкавкомандировку",
+    "Solution": "",
+    "Type": "ClientActivity"
+  },
+  "Position": {
+    "$type": "Comindware.Platform.Contracts.VectorModel, Comindware.Platform.Contracts",
+    "X": 560.0,
+    "Y": 205.0
+  },
+  "Size": {
+    "$type": "Comindware.Platform.Contracts.DimensionsModel, Comindware.Platform.Contracts",
+    "Height": 50.0,
+    "Width": 50.0
+  },
+  "SystemName": "activity_10288c65fb754319a85d49603665f9d1",
+  "Type": "EndEvent"
+}

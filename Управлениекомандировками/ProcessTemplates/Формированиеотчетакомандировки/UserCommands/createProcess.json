@@ -1,0 +1,44 @@
+{
+  "$type": "Comindware.Platform.Contracts.UserCommandConfigurationModel, Comindware.Platform.Contracts",
+  "Container": {
+    "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+    "Alias": "Формированиеотчетакомандировки",
+    "Solution": "Управлениекомандировками",
+    "Type": "ProcessTemplate"
+  },
+  "Context": "Process",
+  "GlobalAlias": {
+    "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+    "Alias": "createProcess",
+    "Owner": "Формированиеотчетакомандировки",
+    "Solution": "Управлениекомандировками",
+    "Type": "UserCommand"
+  },
+  "IsConfirmationActive": false,
+  "IsDisabled": false,
+  "IsPrepare": false,
+  "IsSystem": false,
+  "Kind": "StartProcess",
+  "LockStateChangeType": "Undefined",
+  "LockStateVisibilityType": "Undefined",
+  "Multiplicity": "OneByOne",
+  "Name": "Создать",
+  "NavigationTarget": "Undefined",
+  "RelatedAction": {
+    "$type": "Comindware.Platform.Contracts.UserCommandRelatedActionModel, Comindware.Platform.Contracts",
+    "ContainerGlobalAlias": {
+      "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+      "Alias": "Отчёты",
+      "Solution": "Управлениекомандировками",
+      "Type": "RecordTemplate"
+    },
+    "TemplateGlobalAlias": {
+      "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+      "Alias": "Формированиеотчетакомандировки",
+      "Solution": "Управлениекомандировками",
+      "Type": "ProcessTemplate"
+    }
+  },
+  "ResultType": "DataChange",
+  "SkipValidation": false
+}

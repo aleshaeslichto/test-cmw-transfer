@@ -1,0 +1,32 @@
+{
+  "$type": "Comindware.Platform.Contracts.LaneActivityModel, Comindware.Platform.Contracts",
+  "GlobalAlias": {
+    "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+    "Alias": "activity_6afbbc0d83884a56be99993886f49bdd",
+    "Owner": "Отправкавкомандировку",
+    "Solution": "",
+    "Type": "ClientActivity"
+  },
+  "Index": 1,
+  "IsTitleSet": false,
+  "Owner": {
+    "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+    "Alias": "pool1",
+    "Owner": "Отправкавкомандировку",
+    "Solution": "",
+    "Type": "ClientActivity"
+  },
+  "Position": {
+    "$type": "Comindware.Platform.Contracts.VectorModel, Comindware.Platform.Contracts",
+    "X": 160.0,
+    "Y": 270.0
+  },
+  "Size": {
+    "$type": "Comindware.Platform.Contracts.DimensionsModel, Comindware.Platform.Contracts",
+    "Height": 560.0,
+    "Width": 1640.0
+  },
+  "SystemName": "activity_6afbbc0d83884a56be99993886f49bdd",
+  "Title": "Согласующие",
+  "Type": "Lane"
+}

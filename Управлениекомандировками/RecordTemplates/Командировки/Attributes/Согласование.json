@@ -1,0 +1,33 @@
+{
+  "$type": "Comindware.Platform.Contracts.AttributeModel, Comindware.Platform.Contracts",
+  "Format": "Link",
+  "GlobalAlias": {
+    "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+    "Alias": "Согласование",
+    "Owner": "Командировки",
+    "Solution": "Управлениекомандировками",
+    "Type": "Attribute"
+  },
+  "ImageColorType": "Original",
+  "ImagePreserveAspectRatio": false,
+  "InstanceGlobalAlias": {
+    "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+    "Alias": "Командировка",
+    "Owner": "Согласование",
+    "Solution": "Управлениекомандировками",
+    "Type": "Attribute"
+  },
+  "IsCalculated": false,
+  "IsDisabled": false,
+  "IsIndexed": false,
+  "IsMandatory": false,
+  "IsMultiValue": true,
+  "IsOwnership": false,
+  "IsReadonly": false,
+  "IsSystem": false,
+  "IsTitle": false,
+  "IsTracked": true,
+  "IsUnique": false,
+  "Name": "Согласование",
+  "Type": "Instance"
+}

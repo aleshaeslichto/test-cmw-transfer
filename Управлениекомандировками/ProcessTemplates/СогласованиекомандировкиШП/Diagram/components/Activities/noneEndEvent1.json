@@ -1,0 +1,35 @@
+{
+  "$type": "Comindware.Platform.Contracts.EndEventActivityModel, Comindware.Platform.Contracts",
+  "BehaviourState": "Active",
+  "Description": "Конечное событие по умолчанию",
+  "GlobalAlias": {
+    "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+    "Alias": "noneEndEvent1",
+    "Owner": "СогласованиекомандировкиШП",
+    "Solution": "",
+    "Type": "ClientActivity"
+  },
+  "IsInterrupting": false,
+  "IsTitleSet": false,
+  "Kind": "None",
+  "Owner": {
+    "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+    "Alias": "pool1",
+    "Owner": "СогласованиекомандировкиШП",
+    "Solution": "",
+    "Type": "ClientActivity"
+  },
+  "Position": {
+    "$type": "Comindware.Platform.Contracts.VectorModel, Comindware.Platform.Contracts",
+    "X": 1045.0,
+    "Y": 190.0
+  },
+  "Size": {
+    "$type": "Comindware.Platform.Contracts.DimensionsModel, Comindware.Platform.Contracts",
+    "Height": 50.0,
+    "Width": 50.0
+  },
+  "SystemName": "noneEndEvent1",
+  "Title": "Согласовано",
+  "Type": "EndEvent"
+}

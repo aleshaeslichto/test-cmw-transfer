@@ -1,0 +1,139 @@
+{
+  "$type": "Comindware.Platform.Contracts.Desktop.TileWidgetConfigModel, Comindware.Platform.Contracts",
+  "Children": {
+    "$type": "System.Collections.Generic.List`1[[Comindware.Platform.Contracts.Desktop.WidgetConfigModel, Comindware.Platform.Contracts]], mscorlib",
+    "$values": [
+      {
+        "$type": "Comindware.Platform.Contracts.Desktop.IconWidgetConfigModel, Comindware.Platform.Contracts",
+        "Color": "#4fce1e",
+        "GlobalAlias": {
+          "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+          "Alias": "WidgetConfig_5e686fc2-377c-4581-8b97-134f3e90e49d",
+          "Owner": "WidgetConfig_6f0922b8-1320-49df-b669-5524f1914d03",
+          "Solution": "",
+          "Type": "DesktopWidgetConfig"
+        },
+        "IconClass": "person-cane",
+        "IconType": "Undefined",
+        "Name": "Значок",
+        "Order": 1,
+        "PropertyPath": {
+          "$type": "Comindware.Platform.Contracts.GlobalAlias[], Comindware.Platform.Contracts",
+          "$values": []
+        },
+        "Template": {
+          "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+          "Alias": "Отправкавкомандировку",
+          "Solution": "Управлениекомандировками",
+          "Type": "ProcessTemplate"
+        },
+        "Type": "Icon"
+      },
+      {
+        "$type": "Comindware.Platform.Contracts.Desktop.StaticContentWidgetConfigModel, Comindware.Platform.Contracts",
+        "Content": "<p>Командировка</p>\n",
+        "GlobalAlias": {
+          "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+          "Alias": "WidgetConfig_8781d788-ff7f-4c52-9be3-47aa0cf12d6c",
+          "Owner": "WidgetConfig_6f0922b8-1320-49df-b669-5524f1914d03",
+          "Solution": "",
+          "Type": "DesktopWidgetConfig"
+        },
+        "Name": "title",
+        "Order": 2,
+        "PropertyPath": {
+          "$type": "Comindware.Platform.Contracts.GlobalAlias[], Comindware.Platform.Contracts",
+          "$values": []
+        },
+        "Template": {
+          "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+          "Alias": "Отправкавкомандировку",
+          "Solution": "Управлениекомандировками",
+          "Type": "ProcessTemplate"
+        },
+        "Type": "StaticContent"
+      },
+      {
+        "$type": "Comindware.Platform.Contracts.Desktop.StaticContentWidgetConfigModel, Comindware.Platform.Contracts",
+        "Content": "<p>Заполните заявку для создания командировки</p>\n",
+        "GlobalAlias": {
+          "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+          "Alias": "WidgetConfig_6330b037-82a2-4ff3-982b-71ffaaba3e63",
+          "Owner": "WidgetConfig_6f0922b8-1320-49df-b669-5524f1914d03",
+          "Solution": "",
+          "Type": "DesktopWidgetConfig"
+        },
+        "Name": "description",
+        "Order": 3,
+        "PropertyPath": {
+          "$type": "Comindware.Platform.Contracts.GlobalAlias[], Comindware.Platform.Contracts",
+          "$values": []
+        },
+        "Template": {
+          "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+          "Alias": "Отправкавкомандировку",
+          "Solution": "Управлениекомандировками",
+          "Type": "ProcessTemplate"
+        },
+        "Type": "StaticContent"
+      },
+      {
+        "$type": "Comindware.Platform.Contracts.Desktop.ActionButtonWidgetConfigModel, Comindware.Platform.Contracts",
+        "GlobalAlias": {
+          "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+          "Alias": "WidgetConfig_31493060-94b9-43d3-8452-f84cd62df73d",
+          "Owner": "WidgetConfig_6f0922b8-1320-49df-b669-5524f1914d03",
+          "Solution": "",
+          "Type": "DesktopWidgetConfig"
+        },
+        "Label": {
+          "$type": "Comindware.Platform.Contracts.Desktop.Label, Comindware.Platform.Contracts",
+          "Alignment": "Undefined",
+          "Hidden": false,
+          "Text": "Создать заявку"
+        },
+        "Name": "Создать заявку",
+        "Order": 4,
+        "PropertyPath": {
+          "$type": "Comindware.Platform.Contracts.GlobalAlias[], Comindware.Platform.Contracts",
+          "$values": []
+        },
+        "Template": {
+          "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+          "Alias": "Отправкавкомандировку",
+          "Solution": "Управлениекомандировками",
+          "Type": "ProcessTemplate"
+        },
+        "Type": "ActionButton",
+        "UserCommand": {
+          "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+          "Alias": "createProcess",
+          "Owner": "Отправкавкомандировку",
+          "Solution": "Управлениекомандировками",
+          "Type": "UserCommand"
+        }
+      }
+    ]
+  },
+  "FieldType": "Tile",
+  "GlobalAlias": {
+    "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+    "Alias": "WidgetConfig_6f0922b8-1320-49df-b669-5524f1914d03",
+    "Owner": "Управлениекомандировками",
+    "Solution": "",
+    "Type": "DesktopWidgetConfig"
+  },
+  "Name": "Создание командировки сотрудника",
+  "Order": 0,
+  "PropertyPath": {
+    "$type": "Comindware.Platform.Contracts.GlobalAlias[], Comindware.Platform.Contracts",
+    "$values": []
+  },
+  "Template": {
+    "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+    "Alias": "Отправкавкомандировку",
+    "Solution": "Управлениекомандировками",
+    "Type": "ProcessTemplate"
+  },
+  "Type": "FieldComponent"
+}

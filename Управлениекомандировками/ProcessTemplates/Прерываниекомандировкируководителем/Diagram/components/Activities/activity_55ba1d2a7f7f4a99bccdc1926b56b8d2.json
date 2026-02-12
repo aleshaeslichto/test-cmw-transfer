@@ -1,0 +1,33 @@
+{
+  "$type": "Comindware.Platform.Contracts.EndEventActivityModel, Comindware.Platform.Contracts",
+  "BehaviourState": "Active",
+  "GlobalAlias": {
+    "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+    "Alias": "activity_55ba1d2a7f7f4a99bccdc1926b56b8d2",
+    "Owner": "Прерываниекомандировкируководителем",
+    "Solution": "",
+    "Type": "ClientActivity"
+  },
+  "IsInterrupting": false,
+  "IsTitleSet": false,
+  "Kind": "None",
+  "Owner": {
+    "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+    "Alias": "Прерываниекомандировкируководителем",
+    "Owner": "Прерываниекомандировкируководителем",
+    "Solution": "",
+    "Type": "ClientActivity"
+  },
+  "Position": {
+    "$type": "Comindware.Platform.Contracts.VectorModel, Comindware.Platform.Contracts",
+    "X": 540.0,
+    "Y": 185.0
+  },
+  "Size": {
+    "$type": "Comindware.Platform.Contracts.DimensionsModel, Comindware.Platform.Contracts",
+    "Height": 50.0,
+    "Width": 50.0
+  },
+  "SystemName": "activity_55ba1d2a7f7f4a99bccdc1926b56b8d2",
+  "Type": "EndEvent"
+}

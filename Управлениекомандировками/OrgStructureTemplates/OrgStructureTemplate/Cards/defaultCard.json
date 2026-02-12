@@ -1,0 +1,233 @@
+{
+  "$type": "Comindware.Platform.Contracts.CardModel, Comindware.Platform.Contracts",
+  "ColumnsTemplate": {
+    "$type": "System.Int32[], mscorlib",
+    "$values": [
+      25,
+      25,
+      25,
+      25
+    ]
+  },
+  "Container": {
+    "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+    "Alias": "OrgStructureTemplate",
+    "Solution": "",
+    "Type": "OrgStructureTemplate"
+  },
+  "GlobalAlias": {
+    "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+    "Alias": "defaultCard",
+    "Owner": "OrgStructureTemplate",
+    "Solution": "Управлениекомандировками",
+    "Type": "Card"
+  },
+  "IsDefault": true,
+  "IsHideLabels": false,
+  "Items": {
+    "$type": "Comindware.Platform.Contracts.CardItemModel[], Comindware.Platform.Contracts",
+    "$values": [
+      {
+        "$type": "Comindware.Platform.Contracts.CardItemModel, Comindware.Platform.Contracts",
+        "AlignType": "Left",
+        "ColSpan": 2,
+        "Component": {
+          "$type": "Comindware.Platform.Contracts.CardFieldComponentModel, Comindware.Platform.Contracts",
+          "DisplayType": "Text",
+          "FontSize": "Undefined",
+          "IsBold": false,
+          "IsItalic": false,
+          "IsStrikeThrough": false,
+          "Label": "Создатель",
+          "PropertyPath": {
+            "$type": "Comindware.Platform.Contracts.GlobalAlias[], Comindware.Platform.Contracts",
+            "$values": [
+              {
+                "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+                "Alias": "creator",
+                "Owner": "System#",
+                "Solution": "",
+                "Type": "Attribute"
+              }
+            ]
+          },
+          "TimeZonePropertyPath": {
+            "$type": "Comindware.Platform.Contracts.GlobalAlias[], Comindware.Platform.Contracts",
+            "$values": []
+          },
+          "Type": "FieldComponent"
+        }
+      },
+      {
+        "$type": "Comindware.Platform.Contracts.CardItemModel, Comindware.Platform.Contracts",
+        "AlignType": "Right",
+        "ColSpan": 2,
+        "Component": {
+          "$type": "Comindware.Platform.Contracts.CardFieldComponentModel, Comindware.Platform.Contracts",
+          "DisplayType": "Text",
+          "FontSize": "Undefined",
+          "IsBold": false,
+          "IsItalic": false,
+          "IsStrikeThrough": false,
+          "Label": "Тип организационной единицы",
+          "PropertyPath": {
+            "$type": "Comindware.Platform.Contracts.GlobalAlias[], Comindware.Platform.Contracts",
+            "$values": [
+              {
+                "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+                "Alias": "cmw_ou_type",
+                "Owner": "System#",
+                "Solution": "",
+                "Type": "Attribute"
+              }
+            ]
+          },
+          "TimeZonePropertyPath": {
+            "$type": "Comindware.Platform.Contracts.GlobalAlias[], Comindware.Platform.Contracts",
+            "$values": []
+          },
+          "Type": "FieldComponent"
+        }
+      },
+      {
+        "$type": "Comindware.Platform.Contracts.CardItemModel, Comindware.Platform.Contracts",
+        "AlignType": "Left",
+        "ColSpan": 4,
+        "Component": {
+          "$type": "Comindware.Platform.Contracts.CardFieldComponentModel, Comindware.Platform.Contracts",
+          "DisplayType": "Text",
+          "FontSize": "Undefined",
+          "IsBold": false,
+          "IsItalic": false,
+          "IsStrikeThrough": false,
+          "Label": "Название",
+          "PropertyPath": {
+            "$type": "Comindware.Platform.Contracts.GlobalAlias[], Comindware.Platform.Contracts",
+            "$values": [
+              {
+                "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+                "Alias": "cmw_ou_name",
+                "Owner": "System#",
+                "Solution": "",
+                "Type": "Attribute"
+              }
+            ]
+          },
+          "TimeZonePropertyPath": {
+            "$type": "Comindware.Platform.Contracts.GlobalAlias[], Comindware.Platform.Contracts",
+            "$values": []
+          },
+          "Type": "FieldComponent"
+        }
+      },
+      {
+        "$type": "Comindware.Platform.Contracts.CardItemModel, Comindware.Platform.Contracts",
+        "AlignType": "Left",
+        "ColSpan": 2,
+        "Component": {
+          "$type": "Comindware.Platform.Contracts.CardFieldComponentModel, Comindware.Platform.Contracts",
+          "DisplayType": "Text",
+          "FontSize": "Undefined",
+          "IsBold": false,
+          "IsItalic": false,
+          "IsStrikeThrough": false,
+          "Label": "Описание",
+          "PropertyPath": {
+            "$type": "Comindware.Platform.Contracts.GlobalAlias[], Comindware.Platform.Contracts",
+            "$values": [
+              {
+                "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+                "Alias": "cmw_ou_description",
+                "Owner": "System#",
+                "Solution": "",
+                "Type": "Attribute"
+              }
+            ]
+          },
+          "TimeZonePropertyPath": {
+            "$type": "Comindware.Platform.Contracts.GlobalAlias[], Comindware.Platform.Contracts",
+            "$values": []
+          },
+          "Type": "FieldComponent"
+        }
+      },
+      {
+        "$type": "Comindware.Platform.Contracts.CardItemModel, Comindware.Platform.Contracts",
+        "AlignType": "Right",
+        "ColSpan": 2,
+        "Component": {
+          "$type": "Comindware.Platform.Contracts.CardFieldComponentModel, Comindware.Platform.Contracts",
+          "DisplayType": "Link",
+          "FontSize": "Undefined",
+          "IsBold": false,
+          "IsItalic": false,
+          "IsStrikeThrough": false,
+          "Label": "Вышестоящая организационная единица",
+          "PropertyPath": {
+            "$type": "Comindware.Platform.Contracts.GlobalAlias[], Comindware.Platform.Contracts",
+            "$values": [
+              {
+                "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+                "Alias": "superiorUnit",
+                "Owner": "OrgStructureTemplate",
+                "Solution": "Управлениекомандировками",
+                "Type": "Attribute"
+              }
+            ]
+          },
+          "TimeZonePropertyPath": {
+            "$type": "Comindware.Platform.Contracts.GlobalAlias[], Comindware.Platform.Contracts",
+            "$values": []
+          },
+          "Type": "FieldComponent"
+        }
+      },
+      {
+        "$type": "Comindware.Platform.Contracts.CardItemModel, Comindware.Platform.Contracts",
+        "AlignType": "Left",
+        "ColSpan": 2
+      },
+      {
+        "$type": "Comindware.Platform.Contracts.CardItemModel, Comindware.Platform.Contracts",
+        "AlignType": "Right",
+        "ColSpan": 2,
+        "Component": {
+          "$type": "Comindware.Platform.Contracts.CardFieldComponentModel, Comindware.Platform.Contracts",
+          "DisplayType": "Link",
+          "FontSize": "Undefined",
+          "IsBold": false,
+          "IsItalic": false,
+          "IsStrikeThrough": false,
+          "Label": "Нижестоящая организационная единица",
+          "PropertyPath": {
+            "$type": "Comindware.Platform.Contracts.GlobalAlias[], Comindware.Platform.Contracts",
+            "$values": [
+              {
+                "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+                "Alias": "subordinateUnit",
+                "Owner": "OrgStructureTemplate",
+                "Solution": "Управлениекомандировками",
+                "Type": "Attribute"
+              }
+            ]
+          },
+          "TimeZonePropertyPath": {
+            "$type": "Comindware.Platform.Contracts.GlobalAlias[], Comindware.Platform.Contracts",
+            "$values": []
+          },
+          "Type": "FieldComponent"
+        }
+      }
+    ]
+  },
+  "Name": "Карточка по умолчанию",
+  "RowsTemplate": {
+    "$type": "System.Int32[], mscorlib",
+    "$values": [
+      25,
+      25,
+      25,
+      25
+    ]
+  }
+}

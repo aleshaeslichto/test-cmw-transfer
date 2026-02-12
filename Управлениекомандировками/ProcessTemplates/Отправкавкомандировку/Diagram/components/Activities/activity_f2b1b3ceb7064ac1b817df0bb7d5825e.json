@@ -1,0 +1,91 @@
+{
+  "$type": "Comindware.Platform.Contracts.SubProcessActivityModel, Comindware.Platform.Contracts",
+  "AdvancedConfiguration": false,
+  "BehaviourState": "Active",
+  "Definition": {
+    "$type": "Comindware.Platform.Contracts.SubProcessDefinitionModel, Comindware.Platform.Contracts",
+    "CommonCondition": {
+      "$type": "Comindware.Platform.Contracts.ConditionRuleModel, Comindware.Platform.Contracts",
+      "Definition": {
+        "$type": "Comindware.Platform.Contracts.ExpressionRuleDefinitionModel, Comindware.Platform.Contracts",
+        "Expression": "1 ==1 ",
+        "Type": "Expression"
+      },
+      "Type": "Condition"
+    },
+    "InputMapping": {
+      "$type": "Comindware.Platform.Contracts.MakeObjectRuleModel, Comindware.Platform.Contracts",
+      "Type": "MakeObject"
+    },
+    "ProcessObjectStrategy": "UseExisting",
+    "ProcessRelation": "Undefined",
+    "ReturnMapping": {
+      "$type": "Comindware.Platform.Contracts.MakeObjectRuleModel, Comindware.Platform.Contracts",
+      "Type": "MakeObject"
+    }
+  },
+  "GlobalAlias": {
+    "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+    "Alias": "activity_f2b1b3ceb7064ac1b817df0bb7d5825e",
+    "Owner": "Отправкавкомандировку",
+    "Solution": "",
+    "Type": "ClientActivity"
+  },
+  "IsTitleSet": false,
+  "Loop": {
+    "$type": "Comindware.Platform.Contracts.LoopModel, Comindware.Platform.Contracts",
+    "Expression": "$Согласование",
+    "Kind": "ForEach",
+    "LoopExecutionOrder": "Parallel"
+  },
+  "LoopAdapter": {
+    "$type": "Comindware.Platform.Contracts.SubProcessLoopAdapterModel, Comindware.Platform.Contracts",
+    "ModificationActions": {
+      "$type": "Comindware.Platform.Contracts.ModificationActionModel[], Comindware.Platform.Contracts",
+      "$values": [
+        {
+          "$type": "Comindware.Platform.Contracts.ModificationActionModel, Comindware.Platform.Contracts",
+          "PropertyAction": "Replace",
+          "PropertyPath": {
+            "$type": "Comindware.Platform.Contracts.GlobalAlias[], Comindware.Platform.Contracts",
+            "$values": [
+              {
+                "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+                "Alias": "id",
+                "Owner": "System#",
+                "Solution": "",
+                "Type": "Attribute"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  },
+  "Owner": {
+    "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+    "Alias": "activity_6afbbc0d83884a56be99993886f49bdd",
+    "Owner": "Отправкавкомандировку",
+    "Solution": "",
+    "Type": "ClientActivity"
+  },
+  "Position": {
+    "$type": "Comindware.Platform.Contracts.VectorModel, Comindware.Platform.Contracts",
+    "X": 755.0,
+    "Y": 460.0
+  },
+  "ProcessTemplateAlias": {
+    "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+    "Alias": "СогласованиекомандировкиШП",
+    "Solution": "Управлениекомандировками",
+    "Type": "ProcessTemplate"
+  },
+  "Size": {
+    "$type": "Comindware.Platform.Contracts.DimensionsModel, Comindware.Platform.Contracts",
+    "Height": 100.0,
+    "Width": 150.0
+  },
+  "SystemName": "activity_f2b1b3ceb7064ac1b817df0bb7d5825e",
+  "Title": "Встроенный подпроцесс 1",
+  "Type": "SubProcess"
+}

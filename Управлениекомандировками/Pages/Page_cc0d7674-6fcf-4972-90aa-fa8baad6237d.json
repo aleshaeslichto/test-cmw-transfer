@@ -1,0 +1,266 @@
+{
+  "$type": "Comindware.Platform.Contracts.Desktop.PageModel, Comindware.Platform.Contracts",
+  "GlobalAlias": {
+    "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+    "Alias": "Page_cc0d7674-6fcf-4972-90aa-fa8baad6237d",
+    "Owner": "Page_cc0d7674-6fcf-4972-90aa-fa8baad6237d",
+    "Solution": "",
+    "Type": "SimplePage"
+  },
+  "Name": "Страница сотрудника",
+  "Root": {
+    "$type": "Comindware.Platform.Contracts.Desktop.VerticalLayoutComponentModel, Comindware.Platform.Contracts",
+    "AccessType": "Undefined",
+    "GlobalAlias": {
+      "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+      "Alias": "Component_1e983c74-6645-4ce4-b4b5-e8297e82f960",
+      "Owner": "Page_cc0d7674-6fcf-4972-90aa-fa8baad6237d",
+      "Solution": "",
+      "Type": "DesktopComponent"
+    },
+    "Order": 1,
+    "Rows": {
+      "$type": "System.Collections.Generic.List`1[[Comindware.Platform.Contracts.Desktop.ComponentModel, Comindware.Platform.Contracts]], mscorlib",
+      "$values": [
+        {
+          "$type": "Comindware.Platform.Contracts.Desktop.GroupPanelComponentModel, Comindware.Platform.Contracts",
+          "AccessType": "Editable",
+          "GlobalAlias": {
+            "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+            "Alias": "Component_8c87f9f2-8ae5-44ef-80f0-ef07e97a33df",
+            "Owner": "Component_1e983c74-6645-4ce4-b4b5-e8297e82f960",
+            "Solution": "",
+            "Type": "DesktopComponent"
+          },
+          "Name": "Область",
+          "Order": 1,
+          "Rows": {
+            "$type": "System.Collections.Generic.List`1[[Comindware.Platform.Contracts.Desktop.ComponentModel, Comindware.Platform.Contracts]], mscorlib",
+            "$values": [
+              {
+                "$type": "Comindware.Platform.Contracts.Desktop.VerticalLayoutComponentModel, Comindware.Platform.Contracts",
+                "AccessType": "Undefined",
+                "GlobalAlias": {
+                  "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+                  "Alias": "Component_02cd403f-38dc-4668-829c-b5e1386f7c3a",
+                  "Owner": "Component_8c87f9f2-8ae5-44ef-80f0-ef07e97a33df",
+                  "Solution": "",
+                  "Type": "DesktopComponent"
+                },
+                "Order": 1,
+                "Rows": {
+                  "$type": "System.Collections.Generic.List`1[[Comindware.Platform.Contracts.Desktop.ComponentModel, Comindware.Platform.Contracts]], mscorlib",
+                  "$values": [
+                    {
+                      "$type": "Comindware.Platform.Contracts.Desktop.StaticContentComponentModel, Comindware.Platform.Contracts",
+                      "AccessType": "Undefined",
+                      "Content": "<p>Добро пожаловать в систему управления командировками</p>\n",
+                      "GlobalAlias": {
+                        "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+                        "Alias": "Component_7df79f64-3343-4884-b6dd-5ff22b8f47ab",
+                        "Owner": "Component_02cd403f-38dc-4668-829c-b5e1386f7c3a",
+                        "Solution": "",
+                        "Type": "DesktopComponent"
+                      },
+                      "Name": "Статичный текст",
+                      "Order": 1,
+                      "Type": "StaticContent"
+                    }
+                  ]
+                },
+                "Type": "VerticalLayout",
+                "Width": "100"
+              }
+            ]
+          },
+          "Type": "GroupPanel",
+          "Width": "100"
+        },
+        {
+          "$type": "Comindware.Platform.Contracts.Desktop.GroupPanelComponentModel, Comindware.Platform.Contracts",
+          "AccessType": "Editable",
+          "GlobalAlias": {
+            "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+            "Alias": "Component_27c6e5d5-92e6-4caa-bf9c-7c4292d1ba06",
+            "Owner": "Component_1e983c74-6645-4ce4-b4b5-e8297e82f960",
+            "Solution": "",
+            "Type": "DesktopComponent"
+          },
+          "Name": "Область",
+          "Order": 2,
+          "Rows": {
+            "$type": "System.Collections.Generic.List`1[[Comindware.Platform.Contracts.Desktop.ComponentModel, Comindware.Platform.Contracts]], mscorlib",
+            "$values": [
+              {
+                "$type": "Comindware.Platform.Contracts.Desktop.VerticalLayoutComponentModel, Comindware.Platform.Contracts",
+                "AccessType": "Undefined",
+                "GlobalAlias": {
+                  "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+                  "Alias": "Component_34eac8f2-7a59-49fb-b817-3163fa54dd0a",
+                  "Owner": "Component_27c6e5d5-92e6-4caa-bf9c-7c4292d1ba06",
+                  "Solution": "",
+                  "Type": "DesktopComponent"
+                },
+                "Order": 1,
+                "Rows": {
+                  "$type": "System.Collections.Generic.List`1[[Comindware.Platform.Contracts.Desktop.ComponentModel, Comindware.Platform.Contracts]], mscorlib",
+                  "$values": [
+                    {
+                      "$type": "Comindware.Platform.Contracts.Desktop.CarouselLayoutComponentModel, Comindware.Platform.Contracts",
+                      "AccessType": "Undefined",
+                      "Children": {
+                        "$type": "System.Collections.Generic.List`1[[Comindware.Platform.Contracts.Desktop.ComponentModel, Comindware.Platform.Contracts]], mscorlib",
+                        "$values": [
+                          {
+                            "$type": "Comindware.Platform.Contracts.Desktop.FieldComponentModel, Comindware.Platform.Contracts",
+                            "AccessType": "Undefined",
+                            "Children": {
+                              "$type": "System.Collections.Generic.List`1[[Comindware.Platform.Contracts.Desktop.ComponentModel, Comindware.Platform.Contracts]], mscorlib",
+                              "$values": [
+                                {
+                                  "$type": "Comindware.Platform.Contracts.Desktop.IconComponentModel, Comindware.Platform.Contracts",
+                                  "AccessType": "Undefined",
+                                  "Color": "#4fce1e",
+                                  "GlobalAlias": {
+                                    "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+                                    "Alias": "WidgetConfig_5e686fc2-377c-4581-8b97-134f3e90e49d",
+                                    "Owner": "Component_7f0981b9-6d21-4426-9b37-e248f3dc3d67",
+                                    "Solution": "",
+                                    "Type": "DesktopComponent"
+                                  },
+                                  "IconClass": "person-cane",
+                                  "IconType": "Undefined",
+                                  "Name": "Значок",
+                                  "Order": 1,
+                                  "Type": "Icon",
+                                  "WidgetConfig": {
+                                    "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+                                    "Alias": "WidgetConfig_5e686fc2-377c-4581-8b97-134f3e90e49d",
+                                    "Solution": "",
+                                    "Type": "DesktopWidgetConfig"
+                                  }
+                                },
+                                {
+                                  "$type": "Comindware.Platform.Contracts.Desktop.StaticContentComponentModel, Comindware.Platform.Contracts",
+                                  "AccessType": "Undefined",
+                                  "Content": "<p>Командировка</p>\n",
+                                  "GlobalAlias": {
+                                    "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+                                    "Alias": "WidgetConfig_8781d788-ff7f-4c52-9be3-47aa0cf12d6c",
+                                    "Owner": "Component_7f0981b9-6d21-4426-9b37-e248f3dc3d67",
+                                    "Solution": "",
+                                    "Type": "DesktopComponent"
+                                  },
+                                  "Name": "title",
+                                  "Order": 2,
+                                  "Type": "StaticContent",
+                                  "WidgetConfig": {
+                                    "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+                                    "Alias": "WidgetConfig_8781d788-ff7f-4c52-9be3-47aa0cf12d6c",
+                                    "Solution": "",
+                                    "Type": "DesktopWidgetConfig"
+                                  }
+                                },
+                                {
+                                  "$type": "Comindware.Platform.Contracts.Desktop.StaticContentComponentModel, Comindware.Platform.Contracts",
+                                  "AccessType": "Undefined",
+                                  "Content": "<p>Заполните заявку для создания командировки</p>\n",
+                                  "GlobalAlias": {
+                                    "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+                                    "Alias": "WidgetConfig_6330b037-82a2-4ff3-982b-71ffaaba3e63",
+                                    "Owner": "Component_7f0981b9-6d21-4426-9b37-e248f3dc3d67",
+                                    "Solution": "",
+                                    "Type": "DesktopComponent"
+                                  },
+                                  "Name": "description",
+                                  "Order": 3,
+                                  "Type": "StaticContent",
+                                  "WidgetConfig": {
+                                    "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+                                    "Alias": "WidgetConfig_6330b037-82a2-4ff3-982b-71ffaaba3e63",
+                                    "Solution": "",
+                                    "Type": "DesktopWidgetConfig"
+                                  }
+                                },
+                                {
+                                  "$type": "Comindware.Platform.Contracts.Desktop.ActionButtonComponentModel, Comindware.Platform.Contracts",
+                                  "AccessType": "Undefined",
+                                  "GlobalAlias": {
+                                    "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+                                    "Alias": "WidgetConfig_31493060-94b9-43d3-8452-f84cd62df73d",
+                                    "Owner": "Component_7f0981b9-6d21-4426-9b37-e248f3dc3d67",
+                                    "Solution": "",
+                                    "Type": "DesktopComponent"
+                                  },
+                                  "IsLink": false,
+                                  "Label": {
+                                    "$type": "Comindware.Platform.Contracts.Desktop.Label, Comindware.Platform.Contracts",
+                                    "Alignment": "Undefined",
+                                    "Hidden": false,
+                                    "Text": "Создать заявку"
+                                  },
+                                  "Name": "Создать заявку",
+                                  "Order": 4,
+                                  "Type": "ActionButton",
+                                  "UserCommand": {
+                                    "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+                                    "Alias": "createProcess",
+                                    "Owner": "Отправкавкомандировку",
+                                    "Solution": "Управлениекомандировками",
+                                    "Type": "UserCommand"
+                                  },
+                                  "WidgetConfig": {
+                                    "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+                                    "Alias": "WidgetConfig_31493060-94b9-43d3-8452-f84cd62df73d",
+                                    "Solution": "",
+                                    "Type": "DesktopWidgetConfig"
+                                  }
+                                }
+                              ]
+                            },
+                            "FieldType": "Tile",
+                            "GlobalAlias": {
+                              "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+                              "Alias": "Component_7f0981b9-6d21-4426-9b37-e248f3dc3d67",
+                              "Owner": "Component_605949b5-c32d-41be-8434-a42b6e6c58ba",
+                              "Solution": "",
+                              "Type": "DesktopComponent"
+                            },
+                            "Name": "Создание командировки сотрудника",
+                            "Order": 1,
+                            "Type": "FieldComponent",
+                            "WidgetConfig": {
+                              "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+                              "Alias": "WidgetConfig_6f0922b8-1320-49df-b669-5524f1914d03",
+                              "Solution": "",
+                              "Type": "DesktopWidgetConfig"
+                            }
+                          }
+                        ]
+                      },
+                      "GlobalAlias": {
+                        "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+                        "Alias": "Component_605949b5-c32d-41be-8434-a42b6e6c58ba",
+                        "Owner": "Component_34eac8f2-7a59-49fb-b817-3163fa54dd0a",
+                        "Solution": "",
+                        "Type": "DesktopComponent"
+                      },
+                      "Name": "Карусель",
+                      "Order": 1,
+                      "Type": "CarouselLayout"
+                    }
+                  ]
+                },
+                "Type": "VerticalLayout",
+                "Width": "100"
+              }
+            ]
+          },
+          "Type": "GroupPanel",
+          "Width": "100"
+        }
+      ]
+    },
+    "Type": "VerticalLayout"
+  }
+}

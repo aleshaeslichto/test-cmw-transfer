@@ -1,0 +1,48 @@
+{
+  "$type": "Comindware.Platform.Contracts.UserCommandConfigurationModel, Comindware.Platform.Contracts",
+  "ConfirmationModelConfiguration": {
+    "$type": "Comindware.Platform.Contracts.UserCommandConfirmationModel, Comindware.Platform.Contracts",
+    "Template": {
+      "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+      "Alias": "MyCopany45c2",
+      "Solution": "",
+      "Type": "MessageTemplate"
+    }
+  },
+  "Container": {
+    "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+    "Alias": "Сотрудники",
+    "Solution": "Управлениекомандировками",
+    "Type": "AccountTemplate"
+  },
+  "Context": "Record",
+  "GlobalAlias": {
+    "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+    "Alias": "MyCopany",
+    "Owner": "Сотрудники",
+    "Solution": "Управлениекомандировками",
+    "Type": "UserCommand"
+  },
+  "IsConfirmationActive": false,
+  "IsDisabled": false,
+  "IsPrepare": false,
+  "IsSystem": false,
+  "Kind": "Script",
+  "LockStateChangeType": "Undefined",
+  "LockStateVisibilityType": "Undefined",
+  "Multiplicity": "OneByOne",
+  "Name": "Моя компания",
+  "NavigationTarget": "Undefined",
+  "ResultType": "DataChange",
+  "ScriptRule": {
+    "$type": "Comindware.Platform.Contracts.UserCommandScriptRuleModel, Comindware.Platform.Contracts",
+    "Definition": {
+      "$type": "Comindware.Platform.Contracts.CSharpRuleDefinitionModel, Comindware.Platform.Contracts",
+      "Code": "using System;  \nusing System.Collections.Generic;  \nusing System.Linq;  \nusing Comindware.Data.Entity;  \nusing Comindware.TeamNetwork.Api.Data.UserCommands;  \n  \npublic class Script  \n{  \n    public static UserCommandResult Main(UserCommandContext userCommandContext, Comindware.Entities entities)  \n    {  \n        var result = new UserCommandResult()  \n        {  \n            Success = true,  \n            ResultType = UserCommandResultType.Navigate,  \n            NavigationResult = new UserCommandNavigationResult  \n            {  \n                ContainerId = \"aa.1\",  // ID шаблона аккаунтов  \n                ObjectId = userCommandContext.CurrentUserId,  \n                Context = ContextType.Record  \n            }  \n        };  \n        return result;  \n    }  \n}",
+      "EntryPoint": "Script",
+      "Type": "CSharpExpression"
+    },
+    "Type": "UserCommandScript"
+  },
+  "SkipValidation": false
+}

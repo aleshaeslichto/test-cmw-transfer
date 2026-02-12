@@ -1,0 +1,45 @@
+{
+  "$type": "Comindware.Platform.Contracts.UserCommandConfigurationModel, Comindware.Platform.Contracts",
+  "Container": {
+    "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+    "Alias": "RoleTemplate",
+    "Solution": "",
+    "Type": "RoleTemplate"
+  },
+  "Context": "Record",
+  "GlobalAlias": {
+    "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+    "Alias": "create",
+    "Owner": "RoleTemplate",
+    "Solution": "Управлениекомандировками",
+    "Type": "UserCommand"
+  },
+  "IsConfirmationActive": false,
+  "IsDisabled": false,
+  "IsPrepare": false,
+  "IsSystem": false,
+  "Kind": "Create",
+  "LockStateChangeType": "Undefined",
+  "LockStateVisibilityType": "Undefined",
+  "Multiplicity": "OneByOne",
+  "Name": "Создать",
+  "NavigationTarget": "Undefined",
+  "RelatedAction": {
+    "$type": "Comindware.Platform.Contracts.UserCommandRelatedActionModel, Comindware.Platform.Contracts",
+    "ContainerGlobalAlias": {
+      "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+      "Alias": "RoleTemplate",
+      "Solution": "",
+      "Type": "RoleTemplate"
+    },
+    "FormGlobalAlias": {
+      "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+      "Alias": "roleForm",
+      "Owner": "RoleTemplate",
+      "Solution": "Управлениекомандировками",
+      "Type": "Form"
+    }
+  },
+  "ResultType": "DataChange",
+  "SkipValidation": false
+}

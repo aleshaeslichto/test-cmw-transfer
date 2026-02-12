@@ -1,0 +1,6 @@
+{
+  "$type": "Comindware.Platform.Contracts.SolutionInfoModel, Comindware.Platform.Contracts",
+  "Alias": "Управлениекомандировками",
+  "IsDefault": false,
+  "Name": "Управление командировками"
+}

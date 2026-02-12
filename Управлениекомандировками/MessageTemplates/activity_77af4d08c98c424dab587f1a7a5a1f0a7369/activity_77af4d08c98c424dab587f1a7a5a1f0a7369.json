@@ -1,0 +1,11 @@
+{
+  "$type": "Comindware.Platform.Contracts.MessageTypeConfigurationModel, Comindware.Platform.Contracts",
+  "GlobalAlias": {
+    "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+    "Alias": "activity_77af4d08c98c424dab587f1a7a5a1f0a7369",
+    "Solution": "",
+    "Type": "MessageTemplate"
+  },
+  "Kind": "ExternalKind",
+  "Name": "activity_77af4d08c98c424dab587f1a7a5a1f0a7369"
+}

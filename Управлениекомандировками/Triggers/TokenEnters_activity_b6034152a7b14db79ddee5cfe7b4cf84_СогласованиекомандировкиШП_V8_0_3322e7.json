@@ -1,0 +1,62 @@
+{
+  "$type": "Comindware.Platform.Contracts.Models.Triggers.EventTrigger.TriggerModel, Comindware.Platform.Contracts",
+  "ActionsHead": {
+    "$type": "Comindware.Platform.Contracts.Models.Triggers.EventTrigger.OnProcessActivityEntry, Comindware.Platform.Contracts",
+    "Description": "Токен вошел в элемент «Согласовать бюджет?» <activity_b6034152a7b14db79ddee5cfe7b4cf84>, процесс «Согласование командировки (ШП)» <СогласованиекомандировкиШП>",
+    "GlobalAlias": {
+      "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+      "Alias": "eb2460ba5b5f43de80a9b6b2c1a3f31b",
+      "Solution": "",
+      "Type": "TriggerEvent"
+    },
+    "IsAsync": false,
+    "IsCleaningCache": false,
+    "IsSafe": false,
+    "Kind": "OnProcessActivityEntry",
+    "Name": "Токен вошел в элемент «Согласовать бюджет?»",
+    "NextAction": {
+      "$type": "Comindware.Platform.Contracts.Models.Triggers.EventTrigger.ReferenceObjectChange, Comindware.Platform.Contracts",
+      "GlobalAlias": {
+        "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+        "Alias": "01106d1cc1b74b9d9573736a3b0a5e6b",
+        "Solution": "",
+        "Type": "TriggerAction"
+      },
+      "IsAsync": false,
+      "IsCleaningCache": false,
+      "IsSafe": false,
+      "Kind": "ReferenceObjectChange",
+      "ReferenceExpression": "$$BusinessObject",
+      "Scope": {
+        "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+        "Alias": "СогласованиекомандировкиШП",
+        "Solution": "Управлениекомандировками",
+        "Type": "ProcessTemplate"
+      },
+      "TargetContainer": {
+        "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+        "Alias": "Согласование",
+        "Solution": "Управлениекомандировками",
+        "Type": "RecordTemplate"
+      },
+      "Uid": "01106d1cc1b74b9d9573736a3b0a5e6b"
+    },
+    "Scope": {
+      "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+      "Alias": "СогласованиекомандировкиШП",
+      "Solution": "Управлениекомандировками",
+      "Type": "ProcessTemplate"
+    },
+    "Uid": "eb2460ba5b5f43de80a9b6b2c1a3f31b"
+  },
+  "BehaviourState": "Active",
+  "Description": "Сценарий при входе токена в элемент «Согласовать бюджет?» <activity_b6034152a7b14db79ddee5cfe7b4cf84>, процесс «Согласование командировки (ШП)» <СогласованиекомандировкиШП>",
+  "ExecutionContext": "ByInitiator",
+  "GlobalAlias": {
+    "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+    "Alias": "TokenEnters_activity_b6034152a7b14db79ddee5cfe7b4cf84_СогласованиекомандировкиШП_V8_0_3322e7",
+    "Solution": "",
+    "Type": "Trigger"
+  },
+  "Name": "Вход токена в элемент «Согласовать бюджет?» процесса «Согласование командировки (ШП)»"
+}

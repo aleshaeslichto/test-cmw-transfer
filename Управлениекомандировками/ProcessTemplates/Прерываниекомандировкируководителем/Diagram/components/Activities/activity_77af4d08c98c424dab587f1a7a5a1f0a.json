@@ -1,0 +1,77 @@
+{
+  "$type": "Comindware.Platform.Contracts.IntermediateEventActivityModel, Comindware.Platform.Contracts",
+  "BehaviourState": "Active",
+  "GlobalAlias": {
+    "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+    "Alias": "activity_77af4d08c98c424dab587f1a7a5a1f0a",
+    "Owner": "Прерываниекомандировкируководителем",
+    "Solution": "",
+    "Type": "ClientActivity"
+  },
+  "IsInterrupting": false,
+  "IsTitleSet": false,
+  "Kind": "ThrowingMessage",
+  "MessageDefinition": {
+    "$type": "Comindware.Platform.Contracts.MessageEventDefinitionModel, Comindware.Platform.Contracts",
+    "InputMapping": {
+      "$type": "Comindware.Platform.Contracts.MessagePayloadDefinitionModel, Comindware.Platform.Contracts",
+      "Data": {
+        "$type": "Comindware.Platform.Contracts.MakeMessageRuleModel, Comindware.Platform.Contracts",
+        "MessageType": {
+          "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+          "Alias": "activity_77af4d08c98c424dab587f1a7a5a1f0a7369",
+          "Solution": "",
+          "Type": "MessageTemplate"
+        },
+        "Type": "MakeMessage"
+      },
+      "MessageType": {
+        "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+        "Alias": "activity_77af4d08c98c424dab587f1a7a5a1f0a7369",
+        "Solution": "",
+        "Type": "MessageTemplate"
+      }
+    },
+    "IsThrowing": true,
+    "MessageName": "Сигнал_остановки",
+    "MessageReceiver": {
+      "$type": "Comindware.Platform.Contracts.MessageReceiverProcessObjectDefinitionModel, Comindware.Platform.Contracts",
+      "ProcessObjectId": {
+        "$type": "Comindware.Platform.Contracts.CalculationRuleModel, Comindware.Platform.Contracts",
+        "Definition": {
+          "$type": "Comindware.Platform.Contracts.ExpressionRuleDefinitionModel, Comindware.Platform.Contracts",
+          "Expression": "$ProcessID1",
+          "Type": "Expression"
+        },
+        "Type": "Calculation"
+      },
+      "ReceiverAddressType": "ProcessObject",
+      "Type": "ProcessObject"
+    },
+    "MessageType": {
+      "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+      "Alias": "activity_77af4d08c98c424dab587f1a7a5a1f0a7369",
+      "Solution": "",
+      "Type": "MessageTemplate"
+    }
+  },
+  "Owner": {
+    "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+    "Alias": "Прерываниекомандировкируководителем",
+    "Owner": "Прерываниекомандировкируководителем",
+    "Solution": "",
+    "Type": "ClientActivity"
+  },
+  "Position": {
+    "$type": "Comindware.Platform.Contracts.VectorModel, Comindware.Platform.Contracts",
+    "X": 405.0,
+    "Y": 185.0
+  },
+  "Size": {
+    "$type": "Comindware.Platform.Contracts.DimensionsModel, Comindware.Platform.Contracts",
+    "Height": 50.0,
+    "Width": 50.0
+  },
+  "SystemName": "activity_77af4d08c98c424dab587f1a7a5a1f0a",
+  "Type": "IntermediateEvent"
+}

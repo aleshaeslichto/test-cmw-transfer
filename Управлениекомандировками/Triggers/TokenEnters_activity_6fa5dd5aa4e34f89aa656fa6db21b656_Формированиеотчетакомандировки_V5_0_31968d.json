@@ -1,0 +1,62 @@
+{
+  "$type": "Comindware.Platform.Contracts.Models.Triggers.EventTrigger.TriggerModel, Comindware.Platform.Contracts",
+  "ActionsHead": {
+    "$type": "Comindware.Platform.Contracts.Models.Triggers.EventTrigger.OnProcessActivityEntry, Comindware.Platform.Contracts",
+    "Description": "Токен вошел в элемент «Заполнить отчет по командировке» <activity_6fa5dd5aa4e34f89aa656fa6db21b656>, процесс «Формирование отчета командировки» <Формированиеотчетакомандировки>",
+    "GlobalAlias": {
+      "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+      "Alias": "d729d017c29f44298bfae6988ee3131f",
+      "Solution": "",
+      "Type": "TriggerEvent"
+    },
+    "IsAsync": false,
+    "IsCleaningCache": false,
+    "IsSafe": false,
+    "Kind": "OnProcessActivityEntry",
+    "Name": "Токен вошел в элемент «Заполнить отчет по командировке»",
+    "NextAction": {
+      "$type": "Comindware.Platform.Contracts.Models.Triggers.EventTrigger.ReferenceObjectChange, Comindware.Platform.Contracts",
+      "GlobalAlias": {
+        "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+        "Alias": "8e86c58e3c2940a9af94ba7ef3fce96e",
+        "Solution": "",
+        "Type": "TriggerAction"
+      },
+      "IsAsync": false,
+      "IsCleaningCache": false,
+      "IsSafe": false,
+      "Kind": "ReferenceObjectChange",
+      "ReferenceExpression": "$$BusinessObject",
+      "Scope": {
+        "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+        "Alias": "Формированиеотчетакомандировки",
+        "Solution": "Управлениекомандировками",
+        "Type": "ProcessTemplate"
+      },
+      "TargetContainer": {
+        "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+        "Alias": "Отчёты",
+        "Solution": "Управлениекомандировками",
+        "Type": "RecordTemplate"
+      },
+      "Uid": "8e86c58e3c2940a9af94ba7ef3fce96e"
+    },
+    "Scope": {
+      "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+      "Alias": "Формированиеотчетакомандировки",
+      "Solution": "Управлениекомандировками",
+      "Type": "ProcessTemplate"
+    },
+    "Uid": "d729d017c29f44298bfae6988ee3131f"
+  },
+  "BehaviourState": "Active",
+  "Description": "Сценарий при входе токена в элемент «Заполнить отчет по командировке» <activity_6fa5dd5aa4e34f89aa656fa6db21b656>, процесс «Формирование отчета командировки» <Формированиеотчетакомандировки>",
+  "ExecutionContext": "ByInitiator",
+  "GlobalAlias": {
+    "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+    "Alias": "TokenEnters_activity_6fa5dd5aa4e34f89aa656fa6db21b656_Формированиеотчетакомандировки_V5_0_31968d",
+    "Solution": "",
+    "Type": "Trigger"
+  },
+  "Name": "Вход токена в элемент «Заполнить отчет по командировке» процесса «Формирование отчета командировки»"
+}
