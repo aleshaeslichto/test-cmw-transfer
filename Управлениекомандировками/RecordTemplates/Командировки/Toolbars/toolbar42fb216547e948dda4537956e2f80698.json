@@ -66,6 +66,21 @@
         "Order": 2,
         "Severity": "None",
         "Type": "Action"
+      },
+      {
+        "$type": "Comindware.Platform.Contracts.ToolbarItemModel, Comindware.Platform.Contracts",
+        "Action": {
+          "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+          "Alias": "delete",
+          "Owner": "Командировки",
+          "Solution": "Управлениекомандировками",
+          "Type": "UserCommand"
+        },
+        "IconType": "Undefined",
+        "Name": "Удалить",
+        "Order": 3,
+        "Severity": "None",
+        "Type": "Action"
       }
     ]
   },
